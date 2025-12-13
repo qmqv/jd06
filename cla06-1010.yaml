@@ -53,26 +53,778 @@ tun:
 
 
 proxies:
-  - type: trojan
-    name: 01(TG:@tccjd)
-    server: 219.78.209.224
-    port: 443
-    password: BxceQaOe
+  - type: vmess
+    name: 🇬🇧 英国 V2CROSS.COM
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
+    cipher: auto
+    servername: trojan.burgerip.co.uk
+  - type: vmess
     name: 02(TG:@tccjd)
-    server: 219.78.209.224
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
+    server: hgtrojan.zabc.net
+    port: 2083
+    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: hgtrojan.zabc.net
+    ws-opts:
+      path: /e6395c20
+      headers:
+        Host: hgtrojan.zabc.net
     tls: true
-  - type: trojan
+  - type: vmess
+    name: 美国
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: jp1.sstank.top
+  - type: vmess
+    name: 美国_1
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: t.me%2Fripaojiedian
+  - type: vmess
+    name: 美国_2
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 美国_3
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: imafake.locker
+  - type: vmess
+    name: 美国_4
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: trojan.burgerip.co.uk
+  - type: vmess
+    name: 美国_5
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: trojan.burgerip.co.uk
+  - type: vmess
+    name: 美国_6
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: www.alibaba.com
+  - type: vmess
+    name: 美国_7
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: tianjiu.pages.dev
+  - type: vmess
+    name: 美国_8
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: t.me%252Fripaojiedian
+  - type: vmess
+    name: 美国_9
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: hk.nbee.pp.ua
+  - type: vmess
+    name: 美国_10
+    server: 4cc8-a2d8-a34a20d2e7e5.457.pp.ua
+    port: 443
+    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 4cc8-a2d8-a34a20d2e7e5.457.pp.ua
+    ws-opts:
+      path: /kT5VHYcMrphesqROzSPoHrBo
+      headers:
+        Host: 4cc8-a2d8-a34a20d2e7e5.457.pp.ua
+    tls: true
+  - type: vmess
+    name: 美国_11
+    server: 479b-b511-7D5B7828DbEb.457.PP.ua
+    port: 443
+    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
+    alterId: 0
+    network: xhttp
+    cipher: auto
+    servername: 479B-B511-7d5B7828DbEb.457.pp.UA
+    tls: true
+  - type: vmess
+    name: 美国_12
+    server: 2237-4cE3-8698-cfD1b622333A.457.pp.uA
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    alterId: 0
+    network: xhttp
+    cipher: auto
+    servername: 2237-4CE3-8698-CFd1b622333a.457.pP.UA
+    tls: true
+  - type: ss
+    name: 01(TG:@tccjd)
+    server: nd-tor.vmagnum.win
+    port: 57456
+    cipher: chacha20-ietf-poly1305
+    password: 345dbf842bce4b66
+  - type: ss
+    name: 02(TG:@tccjd)_1
+    server: 82.38.31.187
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: ss
     name: 03(TG:@tccjd)
+    server: 82.38.31.187
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: ss
+    name: 04(TG:@tccjd)
+    server: 82.38.31.187
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: ss
+    name: 05(TG:@tccjd)
+    server: 82.38.31.187
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: ss
+    name: 06(TG:@tccjd)
+    server: 82.38.31.187
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: ss
+    name: 美國
+    server: nd-tor.vmagnum.win
+    port: 57456
+    cipher: chacha20-ietf-poly1305
+    password: 345dbf842bce4b66
+  - type: vless
+    name: 13(TG:@tccjd)
+    server: 51.250.25.11
+    port: 1488
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 14(TG:@tccjd)
+    server: 51.250.24.245
+    port: 4249
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: api-maps.yandex.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 01(TG:@tccjd)_1
+    server: www.visaeurope.at
+    port: 2082
+    uuid: 53b9fd0c-f577-4b22-81f0-9999dafea0e1
+    network: ws
+    servername: assistantdonkeyryfn-5zfnjz.assistant-donkey-ryfn.workers.dev
+    encryption: none
+    ws-opts:
+      path: /🔒 [By EbraSha]
+      headers:
+        Host: assistantdonkeyryfn-5zfnjz.assistant-donkey-ryfn.workers.dev
+  - type: vless
+    name: 04(TG:@tccjd)_1
+    server: 51.250.109.47
+    port: 1488
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 01(TG:@tccjd)_2
+    server: 128.140.14.218
+    port: 123
+    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
+    network: tcp
+    encryption: none
+  - type: vless
+    name: 02(TG:@tccjd)_2
+    server: 128.140.14.218
+    port: 123
+    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
+    network: tcp
+    encryption: none
+  - type: vless
+    name: 03(TG:@tccjd)_1
+    server: 128.140.14.218
+    port: 123
+    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
+    network: tcp
+    encryption: none
+  - type: vless
+    name: 06(TG:@tccjd)_1
+    server: 78.159.247.79
+    port: 443
+    uuid: 02f62dd5-218f-4e9f-9c4b-f8a2e452533e
+    network: tcp
+    servername: www.vk.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: HxjD-7OeJUtrNFsW4PEqThSs6fujV9Mkl5Z4igx21k8
+      short-id: ef
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 07(TG:@tccjd)
+    server: 206.189.9.208
+    port: 13622
+    uuid: 02ec1a55-d67c-4775-b8d7-0a13fd812058
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      grpc-authority: Join---V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz
+  - type: vless
+    name: 美國_1
+    server: lifestealer.fonixapp.org
+    port: 2083
+    uuid: 20b898ac-a156-41ee-be1c-34fa8fc88487
+    network: tcp
+    servername: configuration.apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: ILR40ZmA56RadPtGy0UJmrSPva5Viapz65j-hrS25D8
+      short-id: 173c58
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 德國
+    server: deu637.webunlocked.org
+    port: 443
+    uuid: 51be809d-3e82-4090-b14f-a42a32100ff9
+    network: tcp
+    servername: deu637.webunlocked.org
+    tls: true
+    encryption: none
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 保加利亚
+    server: 93.123.84.219
+    port: 2443
+    uuid: d6b62381-8d75-4a0c-9946-bf8f40772afe
+    network: tcp
+    servername: www.vk.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    client-fingerprint: qq
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 保加利亚_1
+    server: 178.239.123.216
+    port: 24443
+    uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+    network: ws
+    servername: vless3.datatestvless.click
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: vless3.datatestvless.click
+  - type: vless
+    name: 保加利亚_2
+    server: 178.239.123.216
+    port: 24443
+    uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+    network: ws
+    servername: vless3.datatestvless.click
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: vless3.datatestvless.click
+  - type: vless
+    name: 美國_2
+    server: tidehunter.fonixapp.org
+    port: 2083
+    uuid: 2fa90d97-e5ed-43b1-9663-298f792a728c
+    network: tcp
+    servername: update.googleapis.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: rneFm2P56N7_TgqIdLh5ahUIQaK1kQ3-RasVizKPDQc
+      short-id: 58935fec48
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 德國_1
+    server: 128.140.14.218
+    port: 123
+    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
+    network: tcp
+    servername: Join---nitruStore---Join---nitruStore
+    encryption: none
+  - type: vless
+    name: 保加利亚_3
+    server: 178.239.123.216
+    port: 24443
+    uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+    network: ws
+    servername: vless3.datatestvless.click
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram@freecodes
+      headers:
+        Host: vless3.datatestvless.click
+  - type: vless
+    name: 德國_2
+    server: 128.140.14.218
+    port: 123
+    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
+    network: tcp
+    encryption: none
+  - type: vless
+    name: 德國_3
+    server: deu637.webunlocked.org
+    port: 443
+    uuid: 51be809d-3e82-4090-b14f-a42a32100ff9
+    network: tcp
+    servername: deu637.webunlocked.org
+    tls: true
+    encryption: none
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 俄羅斯
+    server: 62.60.148.21
+    port: 443
+    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+    network: tcp
+    servername: st.ozone.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+      short-id: ee6f3e8f44b1f0b6
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 俄羅斯_1
+    server: 51.250.28.8
+    port: 1488
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 俄羅斯_2
+    server: 51.250.21.113
+    port: 7443
+    uuid: 2f0e01f3-8c74-458e-a474-b4aa4ac879aa
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+      short-id: a20d3ed244c76426
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 哈薩克斯坦
+    server: 178.236.16.98
+    port: 35728
+    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+      short-id: 69a2
+    client-fingerprint: chrome
+  - type: vless
+    name: 俄羅斯_3
+    server: 51.250.21.113
+    port: 4249
+    uuid: 20cf5921-f7fa-47c5-81ae-947fbef83a4d
+    network: tcp
+    servername: api-maps.yandex.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: ggIR4bVSlStYnXMClNFeB0Uejk-zw8HQzjAA0j8F7Dc
+      short-id: a20d3ed244c76426
+    client-fingerprint: qq
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 伊朗
+    server: www.speedtest.net
+    port: 2083
+    uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
+    network: ws
+    servername: golestan.hajalwi.ir.
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
+      headers:
+        Host: golestan.hajalwi.ir.
+  - type: vless
+    name: 俄羅斯_4
+    server: 51.250.109.47
+    port: 1488
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 伊朗_1
+    server: www.speedtest.net
+    port: 2083
+    uuid: 94a64eb4-b438-4088-b2bd-6f3ac279c418
+    network: ws
+    servername: golestan.hajalwi.ir.
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+      headers:
+        Host: golestan.hajalwi.ir.
+  - type: vless
+    name: 伊朗_2
+    server: www.speedtest.net
+    port: 2083
+    uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
+    network: ws
+    servername: golestan.hajalwi.ir.
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+      headers:
+        Host: golestan.hajalwi.ir.
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - type: vless
+    name: 伊朗_3
+    server: v2ngnet.heloisfood.ir
+    port: 4488
+    uuid: 0d25085e-b6c4-410a-b206-4dde607cff6c
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: "@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ng\
+        net-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet"
+  - type: vless
+    name: 美國_3
+    server: us01-vlr01-gmn03.vpnvezdehod.net
+    port: 443
+    uuid: 2ca07504-c06a-41a4-b26b-99807a7d24cf
+    network: tcp
+    servername: hls-svod.itunes.apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 48720c
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 伊朗_4
+    server: www.speedtest.net
+    port: 2083
+    uuid: 94a64eb4-b438-4088-b2bd-6f3ac279c418
+    network: ws
+    servername: golestan.hajalwi.ir.
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+      headers:
+        Host: golestan.hajalwi.ir.
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - type: vless
+    name: 伊朗_5
+    server: www.speedtest.net
+    port: 2083
+    uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
+    network: ws
+    servername: golestan.hajalwi.ir.
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+      headers:
+        Host: golestan.hajalwi.ir.
+  - type: vless
+    name: 哈薩克斯坦_1
+    server: 178.236.16.98
+    port: 35728
+    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+    network: tcp
+    servername: yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+      short-id: 69a2
+      spider-x: /
+    client-fingerprint: ios
+  - type: vless
+    name: 俄羅斯_5
+    server: 89.169.177.222
+    port: 8443
+    uuid: 3a066455-22e9-45e7-804e-f1aaaa280e02
+    network: tcp
+    servername: api-maps.yandex.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: CDE57QnfR1CIzHYt5yO2kKrRiBUv4XsvroUQZveU_mE
+      short-id: 5540e44a53c3d01c
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 伊朗_6
+    server: masterserver1.heloisfood.ir
+    port: 6423
+    uuid: 0d25085e-b6c4-410a-b206-4dde607cff6c
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: "@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRV\
+        eR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@M\
+        aSTeRSeRVeR1--@MaSTeRSeRVeR1"
+  - type: vless
+    name: 美國_4
+    server: antimage.fonixapp.org
+    port: 2083
+    uuid: ef6dfa5c-c976-468f-8a9a-660a0adad17f
+    network: tcp
+    servername: ajax.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: rVZQETztt4al4bryh9sL7F9UlGvny2402yvDDJR7o3g
+      short-id: 6590cb
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 以色列
+    server: 185.136.132.171
+    port: 24170
+    uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+    network: tcp
+    servername: speedtest.net
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+      short-id: 2fb2106a629b
+      spider-x: /
+    client-fingerprint: chrome
+  - type: vless
+    name: 德国
+    server: deu637.webunlocked.org
+    port: 443
+    uuid: 51be809d-3e82-4090-b14f-a42a32100ff9
+    network: tcp
+    servername: deu637.webunlocked.org
+    tls: true
+    encryption: none
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 以色列_1
+    server: 185.136.132.171
+    port: 24170
+    uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+    network: tcp
+    servername: speedtest.net
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+      short-id: 2fb2106a629b
+      spider-x: /
+    client-fingerprint: chrome
+  - type: vless
+    name: 美国_13
+    server: jrghxqxyoy-518237151-direct.bahame.co
+    port: 443
+    uuid: jrghxqxyoy
+    network: tcp
+    servername: jrghxqxyoy-518237151-direct.bahame.co
+    tls: true
+    encryption: none
+    flow: xtls-rprx-vision
+    alpn:
+      - h2
+      - http/1.1
+  - type: vless
+    name: 02(TG:@tccjd)_3
+    server: 167.17.70.16
+    port: 8443
+    uuid: 55975415-43c0-461c-8752-d5b8013364e3
+    network: tcp
+    servername: www.microsoft.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 8W9r2aXGhKNtvPxnL6EiPpQuSm9OJT17x2xyxwxIo30
+      short-id: 84f70f1177981563
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 俄罗斯
+    server: 51.250.21.113
+    port: 7443
+    uuid: 2f0e01f3-8c74-458e-a474-b4aa4ac879aa
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+      short-id: a20d3ed244c76426
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 俄罗斯_1
+    server: 51.250.24.245
+    port: 4249
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: api-maps.yandex.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 俄罗斯_2
+    server: 51.250.25.11
+    port: 1488
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 04(TG:@tccjd)_2
+    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+    port: 443
+    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+    network: tcp
+    servername: i2pd.website
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+      short-id: 55e6af1a35e64a98
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 美国_14
+    server: us01-vlr01-gmn03.vpnvezdehod.net
+    port: 443
+    uuid: 2ca07504-c06a-41a4-b26b-99807a7d24cf
+    network: tcp
+    servername: hls-svod.itunes.apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 48720c
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: trojan
+    name: 01(TG:@tccjd)_3
     server: 219.78.209.224
     port: 443
     password: BxceQaOe
@@ -81,7 +833,25 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 04(TG:@tccjd)
+    name: 02(TG:@tccjd)_4
+    server: 219.78.209.224
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 03(TG:@tccjd)_2
+    server: 219.78.209.224
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 04(TG:@tccjd)_3
     server: 58.152.25.242
     port: 443
     password: BxceQaOe
@@ -90,7 +860,7 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 05(TG:@tccjd)
+    name: 05(TG:@tccjd)_1
     server: 58.152.53.174
     port: 443
     password: BxceQaOe
@@ -99,7 +869,7 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 06(TG:@tccjd)
+    name: 06(TG:@tccjd)_2
     server: 58.152.53.174
     port: 443
     password: BxceQaOe
@@ -108,7 +878,7 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 07(TG:@tccjd)
+    name: 07(TG:@tccjd)_1
     server: 58.152.53.174
     port: 443
     password: BxceQaOe
@@ -161,34 +931,6 @@ proxies:
     sni: t.me/ripaojiedian
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 13(TG:@tccjd)
-    server: 51.250.25.11
-    port: 1488
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: tcp
-    servername: ads.x5.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 14(TG:@tccjd)
-    server: 51.250.24.245
-    port: 4249
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: tcp
-    servername: api-maps.yandex.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
     name: 15(TG:@tccjd)
     server: 58.152.25.242
@@ -216,41 +958,6 @@ proxies:
     sni: t.me/ripaojiedian
     skip-cert-verify: true
     tls: true
-  - type: vmess
-    name: 🇬🇧 英国 V2CROSS.COM
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: trojan.burgerip.co.uk
-  - type: vless
-    name: 01(TG:@tccjd)_1
-    server: www.visaeurope.at
-    port: 2082
-    uuid: 53b9fd0c-f577-4b22-81f0-9999dafea0e1
-    network: ws
-    servername: assistantdonkeyryfn-5zfnjz.assistant-donkey-ryfn.workers.dev
-    encryption: none
-    ws-opts:
-      path: /🔒 [By EbraSha]
-      headers:
-        Host: assistantdonkeyryfn-5zfnjz.assistant-donkey-ryfn.workers.dev
-  - type: vmess
-    name: 02(TG:@tccjd)_1
-    server: hgtrojan.zabc.net
-    port: 2083
-    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: hgtrojan.zabc.net
-    ws-opts:
-      path: /e6395c20
-      headers:
-        Host: hgtrojan.zabc.net
-    tls: true
   - type: trojan
     name: 🇭🇰 香港 电讯盈科有限公司
     server: 58.152.53.174
@@ -270,67 +977,8 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 01(TG:@tccjd)_2
-    server: 219.78.209.224
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 02(TG:@tccjd)_2
-    server: 58.152.53.174
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 03(TG:@tccjd)_1
-    server: 58.152.53.174
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: vless
-    name: 04(TG:@tccjd)_1
-    server: 51.250.109.47
-    port: 1488
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: tcp
-    servername: ads.x5.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 05(TG:@tccjd)_1
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 01(TG:@tccjd)_3
-    server: 219.78.209.224
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
     name: 01(TG:@tccjd)_4
-    server: 58.152.53.174
+    server: 219.78.209.224
     port: 443
     password: BxceQaOe
     network: tcp
@@ -338,34 +986,7 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 02(TG:@tccjd)_3
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 03(TG:@tccjd)_2
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 01(TG:@tccjd)_5
-    server: 58.152.53.174
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 02(TG:@tccjd)_4
+    name: 02(TG:@tccjd)_5
     server: 58.152.53.174
     port: 443
     password: BxceQaOe
@@ -383,7 +1004,25 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 04(TG:@tccjd)_2
+    name: 05(TG:@tccjd)_2
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 01(TG:@tccjd)_5
+    server: 219.78.209.224
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 01(TG:@tccjd)_6
     server: 58.152.53.174
     port: 443
     password: BxceQaOe
@@ -391,72 +1030,60 @@ proxies:
     sni: t.me/ripaojiedian
     skip-cert-verify: true
     tls: true
-  - type: ss
-    name: 01(TG:@tccjd)_6
-    server: nd-tor.vmagnum.win
-    port: 57456
-    cipher: chacha20-ietf-poly1305
-    password: 345dbf842bce4b66
-  - type: ss
-    name: 02(TG:@tccjd)_5
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: ss
-    name: 03(TG:@tccjd)_4
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: ss
-    name: 04(TG:@tccjd)_3
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: ss
-    name: 05(TG:@tccjd)_2
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: ss
-    name: 06(TG:@tccjd)_1
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: vless
-    name: 01(TG:@tccjd)_7
-    server: 128.140.14.218
-    port: 123
-    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
-    network: tcp
-    encryption: none
-  - type: vless
+  - type: trojan
     name: 02(TG:@tccjd)_6
-    server: 128.140.14.218
-    port: 123
-    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
     network: tcp
-    encryption: none
-  - type: vless
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 03(TG:@tccjd)_4
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 01(TG:@tccjd)_7
+    server: 58.152.53.174
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 02(TG:@tccjd)_7
+    server: 58.152.53.174
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
     name: 03(TG:@tccjd)_5
-    server: 128.140.14.218
-    port: 123
-    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
+    server: 58.152.53.174
+    port: 443
+    password: BxceQaOe
     network: tcp
-    encryption: none
-  - type: tuic
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
     name: 04(TG:@tccjd)_4
-    server: 192.3.105.7
-    port: 60000
-    uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769%3Af19c7009-7630-4bb4-b26d-09eec0b1b769
-    sni: linux.c97163.www.python.org
-    alpn:
-      - h3
-    congestion-controller: bbr
+    server: 58.152.53.174
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
   - type: trojan
     name: 05(TG:@tccjd)_3
     server: 58.152.25.242
@@ -465,48 +1092,6 @@ proxies:
     network: tcp
     sni: t.me/ripaojiedian
     skip-cert-verify: true
-    tls: true
-  - type: vless
-    name: 06(TG:@tccjd)_2
-    server: 78.159.247.79
-    port: 443
-    uuid: 02f62dd5-218f-4e9f-9c4b-f8a2e452533e
-    network: tcp
-    servername: www.vk.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: HxjD-7OeJUtrNFsW4PEqThSs6fujV9Mkl5Z4igx21k8
-      short-id: ef
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 07(TG:@tccjd)_1
-    server: 206.189.9.208
-    port: 13622
-    uuid: 02ec1a55-d67c-4775-b8d7-0a13fd812058
-    network: grpc
-    encryption: none
-    grpc-opts:
-      grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      grpc-authority: Join---V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz
-  - type: trojan
-    name: 08(TG:@tccjd)_1
-    server: 145.223.70.115
-    port: 25365
-    password: eDHWaPzxcl
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 09(TG:@tccjd)_1
-    server: 209.200.246.53
-    port: 36774
-    password: Fv7ogJ6vfz
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
     tls: true
   - type: trojan
     name: 香港
@@ -900,20 +1485,6 @@ proxies:
     sni: " [By EbraSha] b2n.ir/v2ray-configs | 970 "
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 美國
-    server: lifestealer.fonixapp.org
-    port: 2083
-    uuid: 20b898ac-a156-41ee-be1c-34fa8fc88487
-    network: tcp
-    servername: configuration.apple.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: ILR40ZmA56RadPtGy0UJmrSPva5Viapz65j-hrS25D8
-      short-id: 173c58
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
     name: 香港_42
     server: 58.152.25.20
@@ -923,29 +1494,6 @@ proxies:
     sni: "       [By EbraSha] b2n.ir/v2ray-configs | 1 "
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 德國
-    server: deu637.webunlocked.org
-    port: 443
-    uuid: 51be809d-3e82-4090-b14f-a42a32100ff9
-    network: tcp
-    servername: deu637.webunlocked.org
-    tls: true
-    encryption: none
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 保加利亚
-    server: 93.123.84.219
-    port: 2443
-    uuid: d6b62381-8d75-4a0c-9946-bf8f40772afe
-    network: tcp
-    servername: www.vk.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    client-fingerprint: qq
-    flow: xtls-rprx-vision
   - type: trojan
     name: 香港_43
     server: 58.152.25.242
@@ -964,46 +1512,6 @@ proxies:
     sni: t.me/ripaojiedian
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 保加利亚_1
-    server: 178.239.123.216
-    port: 24443
-    uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-    network: ws
-    servername: vless3.datatestvless.click
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: vless3.datatestvless.click
-  - type: vless
-    name: 保加利亚_2
-    server: 178.239.123.216
-    port: 24443
-    uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-    network: ws
-    servername: vless3.datatestvless.click
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: vless3.datatestvless.click
-  - type: vless
-    name: 美國_1
-    server: tidehunter.fonixapp.org
-    port: 2083
-    uuid: 2fa90d97-e5ed-43b1-9663-298f792a728c
-    network: tcp
-    servername: update.googleapis.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: rneFm2P56N7_TgqIdLh5ahUIQaK1kQ3-RasVizKPDQc
-      short-id: 58935fec48
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
     name: 香港_45
     server: 58.152.30.120
@@ -1023,14 +1531,6 @@ proxies:
     sni: t.me/ripaojiedian
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 德國_1
-    server: 128.140.14.218
-    port: 123
-    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
-    network: tcp
-    servername: Join---nitruStore---Join---nitruStore
-    encryption: none
   - type: trojan
     name: 香港_47
     server: 58.152.30.120
@@ -1059,19 +1559,6 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: vless
-    name: 保加利亚_3
-    server: 178.239.123.216
-    port: 24443
-    uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-    network: ws
-    servername: vless3.datatestvless.click
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram@freecodes
-      headers:
-        Host: vless3.datatestvless.click
   - type: trojan
     name: 香港_50
     server: 58.152.25.242
@@ -1101,13 +1588,6 @@ proxies:
     sni: " [By EbraSha] b2n.ir/v2ray-configs | 422 "
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 德國_2
-    server: 128.140.14.218
-    port: 123
-    uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
-    network: tcp
-    encryption: none
   - type: trojan
     name: 香港_53
     server: 58.152.25.242
@@ -1117,17 +1597,6 @@ proxies:
     sni: 58.152.25.242
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 德國_3
-    server: deu637.webunlocked.org
-    port: 443
-    uuid: 51be809d-3e82-4090-b14f-a42a32100ff9
-    network: tcp
-    servername: deu637.webunlocked.org
-    tls: true
-    encryption: none
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
     name: 香港_54
     server: 58.152.25.20
@@ -1294,14 +1763,6 @@ proxies:
     sni: t.me/ripaojiedian
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_4
-    server: 85.209.53.170
-    port: 443
-    password: 6fb4ceb6-8072-46a5-9311-cdb900cb6666
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_72
     server: 58.152.25.20
@@ -1311,14 +1772,6 @@ proxies:
     sni: "  [By EbraSha] b2n.ir/v2ray-configs | 939 "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_5
-    server: 85.209.53.170
-    port: 80
-    password: d83b80dc-c6a7-4bc8-846e-b6641a828e50
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_73
     server: 58.152.25.20
@@ -1338,14 +1791,6 @@ proxies:
     sni: "       [By EbraSha] "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_6
-    server: 85.209.53.170
-    port: 80
-    password: 08437c04-297c-4069-82b9-ab4ddc611b58
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_75
     server: 58.152.25.20
@@ -1355,54 +1800,6 @@ proxies:
     sni: "  [By EbraSha] "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_7
-    server: 85.209.53.170
-    port: 80
-    password: bb504db7-831c-4bb6-8ead-694a31531095
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_8
-    server: 85.209.53.170
-    port: 80
-    password: 309437f3-cf37-49ea-8e1e-e4b2f904d3cd
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_9
-    server: 85.209.53.170
-    port: 443
-    password: 535e421a-03d1-46b7-8382-ca2ccfb356c4
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_10
-    server: 85.209.53.170
-    port: 80
-    password: dc300059-75d1-457e-89f9-35935af683a6
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_11
-    server: 85.209.53.170
-    port: 443
-    password: 579d280e-8f52-4061-96cd-c989f8b76184
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_12
-    server: 85.209.53.170
-    port: 443
-    password: 7d60ad5c-17ff-4d7c-ad94-bfadcd5dfcc4
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_76
     server: 58.152.25.20
@@ -1412,68 +1809,6 @@ proxies:
     sni: "  [By EbraSha] b2n.ir/v2ray-configs | 939 "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_13
-    server: 85.209.53.170
-    port: 443
-    password: 16946742-5a43-4888-ad2c-eaeaaffafe7f
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: vless
-    name: 俄羅斯
-    server: 62.60.148.21
-    port: 443
-    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
-    network: tcp
-    servername: st.ozone.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
-      short-id: ee6f3e8f44b1f0b6
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: hysteria2
-    name: 德國_14
-    server: 85.209.53.170
-    port: 80
-    password: 88af8c07-5ae3-4422-b942-913a19167912
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_15
-    server: 85.209.53.170
-    port: 443
-    password: ce57af13-0389-4b71-a6c8-c93c0c89a65d
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_16
-    server: 85.209.53.170
-    port: 443
-    password: ec243dd1-09e1-47f7-99c7-475502a7a777
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_17
-    server: 85.209.53.170
-    port: 80
-    password: 9e3df567-9563-43eb-92ec-c869c2b046f4
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_18
-    server: 85.209.53.170
-    port: 443
-    password: 87a60198-e486-41cf-81d4-bbc7067f3caf
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_77
     server: 58.152.30.120
@@ -1483,54 +1818,6 @@ proxies:
     sni: " [By EbraSha] b2n.ir/v2ray-configs | 306 "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_19
-    server: 85.209.53.170
-    port: 80
-    password: ec243dd1-09e1-47f7-99c7-475502a7a777
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_20
-    server: 85.209.53.170
-    port: 80
-    password: 9221bfd1-80bf-435b-8477-c6a27c4a6e5f
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_21
-    server: 85.209.53.170
-    port: 443
-    password: 5afa1a27-8cc1-4fda-97ed-8598c78e6b14
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_22
-    server: 85.209.53.170
-    port: 443
-    password: ddb2a9d5-a9ac-422a-ae48-592cc7843b14
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_23
-    server: 85.209.53.170
-    port: 443
-    password: 9221bfd1-80bf-435b-8477-c6a27c4a6e5f
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_24
-    server: 85.209.53.170
-    port: 443
-    password: 5f0e23eb-1802-4b07-a4b7-569449adb770
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_78
     server: 58.152.25.20
@@ -1549,30 +1836,6 @@ proxies:
     sni: "       [By EbraSha] "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_25
-    server: 85.209.53.170
-    port: 80
-    password: bd1dfe53-2109-4bd3-a534-e382b505aeb3
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_26
-    server: 85.209.53.170
-    port: 80
-    password: 24c9c801-8d30-4c46-88b6-254fc6bc0cf9
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_27
-    server: 85.209.53.170
-    port: 443
-    password: 1777f3f1-42a4-4887-9c42-2594d147b5c8
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_80
     server: 58.152.30.120
@@ -1583,14 +1846,6 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: hysteria2
-    name: 德國_28
-    server: 85.209.53.170
-    port: 80
-    password: 361ecd89-2a37-494e-9178-f56a3442cb77
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_81
     server: 58.152.25.20
@@ -1600,22 +1855,6 @@ proxies:
     sni: " [By EbraSha] b2n.ir/v2ray-configs | 1 "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_29
-    server: 85.209.53.170
-    port: 80
-    password: 4c6d1b9b-5aef-482b-abf2-bdb46eff3767
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_30
-    server: 85.209.53.170
-    port: 80
-    password: c7c7590b-9533-472c-8e41-68f46952e4d5
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_82
     server: 58.152.25.20
@@ -1645,46 +1884,6 @@ proxies:
     sni: "       [By EbraSha] "
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 俄羅斯_1
-    server: 51.250.28.8
-    port: 1488
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: tcp
-    servername: ads.x5.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 俄羅斯_2
-    server: 51.250.21.113
-    port: 7443
-    uuid: 2f0e01f3-8c74-458e-a474-b4aa4ac879aa
-    network: tcp
-    servername: ads.x5.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-      short-id: a20d3ed244c76426
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 哈薩克斯坦
-    server: 178.236.16.98
-    port: 35728
-    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-    network: tcp
-    servername: yahoo.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-      short-id: 69a2
-    client-fingerprint: chrome
   - type: trojan
     name: 香港_85
     server: 58.152.30.120
@@ -1703,33 +1902,6 @@ proxies:
     sni: " [By EbraSha] b2n.ir/v2ray-configs | 774 "
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 俄羅斯_3
-    server: 51.250.21.113
-    port: 4249
-    uuid: 20cf5921-f7fa-47c5-81ae-947fbef83a4d
-    network: tcp
-    servername: api-maps.yandex.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: ggIR4bVSlStYnXMClNFeB0Uejk-zw8HQzjAA0j8F7Dc
-      short-id: a20d3ed244c76426
-    client-fingerprint: qq
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 伊朗
-    server: www.speedtest.net
-    port: 2083
-    uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
-    network: ws
-    servername: golestan.hajalwi.ir.
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
-      headers:
-        Host: golestan.hajalwi.ir.
   - type: trojan
     name: 香港_87
     server: 58.152.30.120
@@ -1739,19 +1911,6 @@ proxies:
     sni: "       [By EbraSha] b2n.ir/v2ray-configs | 61 "
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 俄羅斯_4
-    server: 51.250.109.47
-    port: 1488
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: tcp
-    servername: ads.x5.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
     name: 香港_88
     server: 58.152.25.20
@@ -1780,19 +1939,6 @@ proxies:
     sni: 58.152.30.120
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 伊朗_1
-    server: www.speedtest.net
-    port: 2083
-    uuid: 94a64eb4-b438-4088-b2bd-6f3ac279c418
-    network: ws
-    servername: golestan.hajalwi.ir.
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
-      headers:
-        Host: golestan.hajalwi.ir.
   - type: trojan
     name: 香港_91
     server: 58.152.25.20
@@ -1812,14 +1958,6 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: hysteria2
-    name: 德國_31
-    server: 85.209.53.170
-    port: 443
-    password: 309437f3-cf37-49ea-8e1e-e4b2f904d3cd
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_93
     server: 58.152.25.20
@@ -1839,23 +1977,6 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: vless
-    name: 伊朗_2
-    server: www.speedtest.net
-    port: 2083
-    uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
-    network: ws
-    servername: golestan.hajalwi.ir.
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
-      headers:
-        Host: golestan.hajalwi.ir.
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
   - type: trojan
     name: 香港_95
     server: 58.152.25.242
@@ -1961,7 +2082,7 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 美國_2
+    name: 美國_5
     server: hyfuuf6.wsone.icu
     port: 443
     password: M7v%25w11Se%2A
@@ -2015,14 +2136,6 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: hysteria2
-    name: 德國_32
-    server: 85.209.53.170
-    port: 80
-    password: d27f6f1b-0c91-4420-a543-16fa73ef1e8a
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_111
     server: 58.152.25.20
@@ -2032,16 +2145,6 @@ proxies:
     sni: "������ [By EbraSha] "
     skip-cert-verify: true
     tls: true
-  - type: vless
-    name: 伊朗_3
-    server: v2ngnet.heloisfood.ir
-    port: 4488
-    uuid: 0d25085e-b6c4-410a-b206-4dde607cff6c
-    network: grpc
-    encryption: none
-    grpc-opts:
-      grpc-service-name: "@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ng\
-        net-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet"
   - type: trojan
     name: 香港_112
     server: 58.152.30.120
@@ -2051,14 +2154,6 @@ proxies:
     sni: "       [By EbraSha] "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_33
-    server: 85.209.53.170
-    port: 80
-    password: 334b52fb-445d-4fe6-a853-85a8ed073a58
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_113
     server: 58.152.30.120
@@ -2068,14 +2163,6 @@ proxies:
     sni: "       [By EbraSha] b2n.ir/v2ray-configs | 306 "
     skip-cert-verify: true
     tls: true
-  - type: hysteria2
-    name: 德國_34
-    server: 85.209.53.170
-    port: 80
-    password: dc318e56-ee8f-41c6-b735-27358db2c36e
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
     name: 香港_114
     server: 58.152.30.120
@@ -2095,20 +2182,6 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: vless
-    name: 美國_3
-    server: us01-vlr01-gmn03.vpnvezdehod.net
-    port: 443
-    uuid: 2ca07504-c06a-41a4-b26b-99807a7d24cf
-    network: tcp
-    servername: hls-svod.itunes.apple.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 48720c
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
     name: 香港_116
     server: 58.152.25.20
@@ -2119,7 +2192,7 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 美国
+    name: 美国_15
     server: bestcdn4.868863.xyz
     port: 2087
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2131,7 +2204,7 @@ proxies:
       headers:
         Host: 17655991479300.796813.xyz
   - type: trojan
-    name: 美国_1
+    name: 美国_16
     server: bestcdn4.868863.xyz
     port: 8443
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2143,7 +2216,7 @@ proxies:
       headers:
         Host: 17655991477219.796813.xyz
   - type: trojan
-    name: 美国_2
+    name: 美国_17
     server: bestcdn4.868863.xyz
     port: 2053
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2155,7 +2228,7 @@ proxies:
       headers:
         Host: 17655991479634.796813.xyz
   - type: trojan
-    name: 美国_3
+    name: 美国_18
     server: bestcdn4.868863.xyz
     port: 2083
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2166,38 +2239,8 @@ proxies:
       path: /videomuaawe
       headers:
         Host: 17655991476752.206355.xyz
-  - type: vless
-    name: 伊朗_4
-    server: www.speedtest.net
-    port: 2083
-    uuid: 94a64eb4-b438-4088-b2bd-6f3ac279c418
-    network: ws
-    servername: golestan.hajalwi.ir.
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
-      headers:
-        Host: golestan.hajalwi.ir.
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-  - type: vless
-    name: 伊朗_5
-    server: www.speedtest.net
-    port: 2083
-    uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
-    network: ws
-    servername: golestan.hajalwi.ir.
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
-      headers:
-        Host: golestan.hajalwi.ir.
   - type: trojan
-    name: 美国_4
+    name: 美国_19
     server: bestcdn5.868863.xyz
     port: 8443
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2208,22 +2251,8 @@ proxies:
       path: /agraeabtegrrh
       headers:
         Host: 17655991477357.796812.xyz
-  - type: vless
-    name: 哈薩克斯坦_1
-    server: 178.236.16.98
-    port: 35728
-    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-    network: tcp
-    servername: yahoo.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-      short-id: 69a2
-      spider-x: /
-    client-fingerprint: ios
   - type: trojan
-    name: 美国_5
+    name: 美国_20
     server: bestcdn5.868863.xyz
     port: 8443
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2235,7 +2264,7 @@ proxies:
       headers:
         Host: 17655991476455.206355.xyz
   - type: trojan
-    name: 美国_6
+    name: 美国_21
     server: bestcdn2.868863.xyz
     port: 2096
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2247,7 +2276,7 @@ proxies:
       headers:
         Host: 17655991479405.206355.xyz
   - type: trojan
-    name: 美国_7
+    name: 美国_22
     server: bestcdn4.868863.xyz
     port: 2096
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2259,7 +2288,7 @@ proxies:
       headers:
         Host: 17655991474252.796812.xyz
   - type: trojan
-    name: 美国_8
+    name: 美国_23
     server: bestcdn2.868863.xyz
     port: 2083
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2271,7 +2300,7 @@ proxies:
       headers:
         Host: 17655991478227.796812.xyz
   - type: trojan
-    name: 美国_9
+    name: 美国_24
     server: bestcdn4.868863.xyz
     port: 8443
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2283,7 +2312,7 @@ proxies:
       headers:
         Host: 17655991472647.796813.xyz
   - type: trojan
-    name: 美国_10
+    name: 美国_25
     server: bestcdn4.868863.xyz
     port: 2096
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2295,7 +2324,7 @@ proxies:
       headers:
         Host: 17655991477621.796813.xyz
   - type: trojan
-    name: 美国_11
+    name: 美国_26
     server: bestcdn1.868863.xyz
     port: 2096
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2307,7 +2336,7 @@ proxies:
       headers:
         Host: 17655991477332.796813.xyz
   - type: trojan
-    name: 美国_12
+    name: 美国_27
     server: bestcdn3.868863.xyz
     port: 2083
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2319,7 +2348,7 @@ proxies:
       headers:
         Host: 17655991472166.796813.xyz
   - type: trojan
-    name: 美国_13
+    name: 美国_28
     server: bestcdn5.868863.xyz
     port: 2053
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2331,7 +2360,7 @@ proxies:
       headers:
         Host: 17655991475452.796813.xyz
   - type: trojan
-    name: 美国_14
+    name: 美国_29
     server: bestcdn4.868863.xyz
     port: 2087
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2343,7 +2372,7 @@ proxies:
       headers:
         Host: 17655991479047.796813.xyz
   - type: trojan
-    name: 美国_15
+    name: 美国_30
     server: bestcdn4.868863.xyz
     port: 2087
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2354,16 +2383,8 @@ proxies:
       path: /agrbniuh
       headers:
         Host: 17655991471262.796813.xyz
-  - type: hysteria2
-    name: 德國_35
-    server: 85.209.53.170
-    port: 443
-    password: bb504db7-831c-4bb6-8ead-694a31531095
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   - type: trojan
-    name: 美国_16
+    name: 美国_31
     server: bestcdn4.868863.xyz
     port: 8443
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2384,7 +2405,7 @@ proxies:
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 美国_17
+    name: 美国_32
     server: bestcdn1.868863.xyz
     port: 2087
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2395,107 +2416,8 @@ proxies:
       path: /videomuaawe
       headers:
         Host: 17655991471112.206355.xyz
-  - type: hysteria2
-    name: 德國_36
-    server: 85.209.53.170
-    port: 443
-    password: f86d2a91-7647-4bf4-b05e-9338415b995a
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_37
-    server: 85.209.53.170
-    port: 443
-    password: 24c9c801-8d30-4c46-88b6-254fc6bc0cf9
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_38
-    server: 85.209.53.170
-    port: 443
-    password: 9536d434-9e41-4f90-8402-c1dcb6ebce19
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: vless
-    name: 俄羅斯_5
-    server: 89.169.177.222
-    port: 8443
-    uuid: 3a066455-22e9-45e7-804e-f1aaaa280e02
-    network: tcp
-    servername: api-maps.yandex.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: CDE57QnfR1CIzHYt5yO2kKrRiBUv4XsvroUQZveU_mE
-      short-id: 5540e44a53c3d01c
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: hysteria2
-    name: 德國_39
-    server: 85.209.53.170
-    port: 443
-    password: 0870aae7-56de-49ac-8446-aa0004884e60
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_40
-    server: 85.209.53.170
-    port: 443
-    password: 60b93c5f-7ada-4482-94c3-f7705f7dd84a
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_41
-    server: 85.209.53.170
-    port: 80
-    password: 9fa21c8f-d527-4474-b8a1-b40866f63481
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_42
-    server: 85.209.53.170
-    port: 80
-    password: 4fcb4d0b-2e70-40a3-b9f0-49bcd75a1c4a
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_43
-    server: 85.209.53.170
-    port: 443
-    password: 545335c9-b692-4bf5-aa76-a8cb46de7f2f
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: hysteria2
-    name: 德國_44
-    server: 85.209.53.170
-    port: 443
-    password: fef5ca01-f954-4729-a798-b365ea60688c
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: ss
-    name: 美國_4
-    server: nd-tor.vmagnum.win
-    port: 57456
-    cipher: chacha20-ietf-poly1305
-    password: 345dbf842bce4b66
-  - type: hysteria2
-    name: 法國
-    server: 163.172.21.105
-    port: 5355
-    password: dongtaiwang.com
-    skip-cert-verify: true
-    sni: www.bing.com
   - type: trojan
-    name: 美国_18
+    name: 美国_33
     server: bestcdn1.868863.xyz
     port: 2053
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2506,47 +2428,8 @@ proxies:
       path: /agraeabtegrrh
       headers:
         Host: 17655991478659.796812.xyz
-  - type: vless
-    name: 伊朗_6
-    server: masterserver1.heloisfood.ir
-    port: 6423
-    uuid: 0d25085e-b6c4-410a-b206-4dde607cff6c
-    network: grpc
-    encryption: none
-    grpc-opts:
-      grpc-service-name: "@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRV\
-        eR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@M\
-        aSTeRSeRVeR1--@MaSTeRSeRVeR1"
-  - type: vless
-    name: 美國_5
-    server: antimage.fonixapp.org
-    port: 2083
-    uuid: ef6dfa5c-c976-468f-8a9a-660a0adad17f
-    network: tcp
-    servername: ajax.cloudflare.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: rVZQETztt4al4bryh9sL7F9UlGvny2402yvDDJR7o3g
-      short-id: 6590cb
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 以色列
-    server: 185.136.132.171
-    port: 24170
-    uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    network: tcp
-    servername: speedtest.net
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-      short-id: 2fb2106a629b
-      spider-x: /
-    client-fingerprint: chrome
   - type: trojan
-    name: 美国_19
+    name: 美国_34
     server: bestcdn3.868863.xyz
     port: 2087
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2558,7 +2441,7 @@ proxies:
       headers:
         Host: 17655991478697.796812.xyz
   - type: trojan
-    name: 美国_20
+    name: 美国_35
     server: bestcdn3.868863.xyz
     port: 2053
     password: 7859f626-f960-462a-a240-4853192e483f
@@ -2569,95 +2452,6 @@ proxies:
       path: /videomuaawe
       headers:
         Host: 17655991471240.206355.xyz
-  - type: vmess
-    name: 美国_21
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: jp1.sstank.top
-  - type: vmess
-    name: 美国_22
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: t.me%2Fripaojiedian
-  - type: vmess
-    name: 美国_23
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-  - type: vmess
-    name: 美国_24
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: imafake.locker
-  - type: vmess
-    name: 美国_25
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: trojan.burgerip.co.uk
-  - type: vmess
-    name: 美国_26
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: trojan.burgerip.co.uk
-  - type: vmess
-    name: 美国_27
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: www.alibaba.com
-  - type: vmess
-    name: 美国_28
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: tianjiu.pages.dev
-  - type: vmess
-    name: 美国_29
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: t.me%252Fripaojiedian
-  - type: vmess
-    name: 美国_30
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: hk.nbee.pp.ua
   - type: trojan
     name: 香港（2025.12.13更新）
     server: 58.152.25.20
@@ -2913,7 +2707,7 @@ proxies:
     port: 443
     password: BxceQaOe
     network: tcp
-    sni: "🔒 [By EbraSha] b2n.ir/v2ray-configs | 939 "
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 939 "
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
@@ -3001,17 +2795,6 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: vless
-    name: 德国
-    server: deu637.webunlocked.org
-    port: 443
-    uuid: 51be809d-3e82-4090-b14f-a42a32100ff9
-    network: tcp
-    servername: deu637.webunlocked.org
-    tls: true
-    encryption: none
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
     name: 香港_153
     server: 58.152.30.120
@@ -3078,20 +2861,6 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
-  - type: vless
-    name: 以色列_1
-    server: 185.136.132.171
-    port: 24170
-    uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    network: tcp
-    servername: speedtest.net
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-      short-id: 2fb2106a629b
-      spider-x: /
-    client-fingerprint: chrome
   - type: trojan
     name: 香港_160
     server: 58.152.25.20
@@ -3210,6 +2979,766 @@ proxies:
     skip-cert-verify: true
     fingerprint: chrome
     tls: true
+  - type: trojan
+    name: 香港_173
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 755 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_174
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: ������ [By EbraSha]
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_175
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 811 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_176
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 41 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_177
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 554 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_178
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_179
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 626 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_180
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_181
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] trojan-HK "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_182
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "  [By EbraSha] b2n.ir/v2ray-configs | 939 "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_183
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_184
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_185
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] trojan-HK "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_186
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_187
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 774 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_188
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] trojan-HK "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_189
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 939 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_190
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: 58.152.30.120
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_191
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 626 "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_192
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 774 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_193
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 56 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_194
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_195
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: ������
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_196
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 422 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_197
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "  [By EbraSha] b2n.ir/v2ray-configs "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_198
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 374 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_199
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 626 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_200
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 56 "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_201
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 920 "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_202
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 317 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_203
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 409 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_204
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_205
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 605 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_206
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_207
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 306 "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_208
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: ������
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_209
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] b2n.ir/v2ray-configs | 303 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_210
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 303 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_211
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] [By EbraSha] b2n.ir/v2ray-configs | 306 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_212
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] [By EbraSha] b2n.ir/v2ray-configs "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_213
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 554 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_214
+    server: 58.152.30.120
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 409 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: trojan
+    name: 香港_215
+    server: 58.152.25.242
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: " [By EbraSha] trojan-HK "
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港_216
+    server: 58.152.25.20
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 920 "
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: hysteria2
+    name: 德國_4
+    server: 85.209.53.170
+    port: 443
+    password: 6fb4ceb6-8072-46a5-9311-cdb900cb6666
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_5
+    server: 85.209.53.170
+    port: 80
+    password: d83b80dc-c6a7-4bc8-846e-b6641a828e50
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_6
+    server: 85.209.53.170
+    port: 80
+    password: 08437c04-297c-4069-82b9-ab4ddc611b58
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_7
+    server: 85.209.53.170
+    port: 80
+    password: bb504db7-831c-4bb6-8ead-694a31531095
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_8
+    server: 85.209.53.170
+    port: 80
+    password: 309437f3-cf37-49ea-8e1e-e4b2f904d3cd
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_9
+    server: 85.209.53.170
+    port: 443
+    password: 535e421a-03d1-46b7-8382-ca2ccfb356c4
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_10
+    server: 85.209.53.170
+    port: 80
+    password: dc300059-75d1-457e-89f9-35935af683a6
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_11
+    server: 85.209.53.170
+    port: 443
+    password: 579d280e-8f52-4061-96cd-c989f8b76184
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_12
+    server: 85.209.53.170
+    port: 443
+    password: 7d60ad5c-17ff-4d7c-ad94-bfadcd5dfcc4
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_13
+    server: 85.209.53.170
+    port: 443
+    password: 16946742-5a43-4888-ad2c-eaeaaffafe7f
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_14
+    server: 85.209.53.170
+    port: 80
+    password: 88af8c07-5ae3-4422-b942-913a19167912
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_15
+    server: 85.209.53.170
+    port: 443
+    password: ce57af13-0389-4b71-a6c8-c93c0c89a65d
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_16
+    server: 85.209.53.170
+    port: 443
+    password: ec243dd1-09e1-47f7-99c7-475502a7a777
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_17
+    server: 85.209.53.170
+    port: 80
+    password: 9e3df567-9563-43eb-92ec-c869c2b046f4
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_18
+    server: 85.209.53.170
+    port: 443
+    password: 87a60198-e486-41cf-81d4-bbc7067f3caf
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_19
+    server: 85.209.53.170
+    port: 80
+    password: ec243dd1-09e1-47f7-99c7-475502a7a777
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_20
+    server: 85.209.53.170
+    port: 80
+    password: 9221bfd1-80bf-435b-8477-c6a27c4a6e5f
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_21
+    server: 85.209.53.170
+    port: 443
+    password: 5afa1a27-8cc1-4fda-97ed-8598c78e6b14
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_22
+    server: 85.209.53.170
+    port: 443
+    password: ddb2a9d5-a9ac-422a-ae48-592cc7843b14
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_23
+    server: 85.209.53.170
+    port: 443
+    password: 9221bfd1-80bf-435b-8477-c6a27c4a6e5f
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_24
+    server: 85.209.53.170
+    port: 443
+    password: 5f0e23eb-1802-4b07-a4b7-569449adb770
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_25
+    server: 85.209.53.170
+    port: 80
+    password: bd1dfe53-2109-4bd3-a534-e382b505aeb3
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_26
+    server: 85.209.53.170
+    port: 80
+    password: 24c9c801-8d30-4c46-88b6-254fc6bc0cf9
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_27
+    server: 85.209.53.170
+    port: 443
+    password: 1777f3f1-42a4-4887-9c42-2594d147b5c8
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_28
+    server: 85.209.53.170
+    port: 80
+    password: 361ecd89-2a37-494e-9178-f56a3442cb77
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_29
+    server: 85.209.53.170
+    port: 80
+    password: 4c6d1b9b-5aef-482b-abf2-bdb46eff3767
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_30
+    server: 85.209.53.170
+    port: 80
+    password: c7c7590b-9533-472c-8e41-68f46952e4d5
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_31
+    server: 85.209.53.170
+    port: 443
+    password: 309437f3-cf37-49ea-8e1e-e4b2f904d3cd
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_32
+    server: 85.209.53.170
+    port: 80
+    password: d27f6f1b-0c91-4420-a543-16fa73ef1e8a
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_33
+    server: 85.209.53.170
+    port: 80
+    password: 334b52fb-445d-4fe6-a853-85a8ed073a58
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_34
+    server: 85.209.53.170
+    port: 80
+    password: dc318e56-ee8f-41c6-b735-27358db2c36e
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_35
+    server: 85.209.53.170
+    port: 443
+    password: bb504db7-831c-4bb6-8ead-694a31531095
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_36
+    server: 85.209.53.170
+    port: 443
+    password: f86d2a91-7647-4bf4-b05e-9338415b995a
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_37
+    server: 85.209.53.170
+    port: 443
+    password: 24c9c801-8d30-4c46-88b6-254fc6bc0cf9
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_38
+    server: 85.209.53.170
+    port: 443
+    password: 9536d434-9e41-4f90-8402-c1dcb6ebce19
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_39
+    server: 85.209.53.170
+    port: 443
+    password: 0870aae7-56de-49ac-8446-aa0004884e60
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_40
+    server: 85.209.53.170
+    port: 443
+    password: 60b93c5f-7ada-4482-94c3-f7705f7dd84a
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_41
+    server: 85.209.53.170
+    port: 80
+    password: 9fa21c8f-d527-4474-b8a1-b40866f63481
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_42
+    server: 85.209.53.170
+    port: 80
+    password: 4fcb4d0b-2e70-40a3-b9f0-49bcd75a1c4a
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_43
+    server: 85.209.53.170
+    port: 443
+    password: 545335c9-b692-4bf5-aa76-a8cb46de7f2f
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 德國_44
+    server: 85.209.53.170
+    port: 443
+    password: fef5ca01-f954-4729-a798-b365ea60688c
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  - type: hysteria2
+    name: 法國
+    server: 163.172.21.105
+    port: 5355
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    sni: www.bing.com
   - type: hysteria2
     name: 01(TG:@tccjd)_8
     server: 62.210.99.49
@@ -3291,16 +3820,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: trojan
-    name: 香港_173
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 755 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: hysteria2
     name: 德国_10
     server: 85.209.53.170
@@ -3381,26 +3900,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: trojan
-    name: 香港_174
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: ������ [By EbraSha]
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_175
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 811 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: hysteria2
     name: 德国_20
     server: 85.209.53.170
@@ -3473,29 +3972,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: vless
-    name: 美国_31
-    server: jrghxqxyoy-518237151-direct.bahame.co
-    port: 443
-    uuid: jrghxqxyoy
-    network: tcp
-    servername: jrghxqxyoy-518237151-direct.bahame.co
-    tls: true
-    encryption: none
-    flow: xtls-rprx-vision
-    alpn:
-      - h2
-      - http/1.1
-  - type: trojan
-    name: 香港_176
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 41 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: hysteria2
     name: 德国_29
     server: 85.209.53.170
@@ -3504,25 +3980,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: trojan
-    name: 香港_177
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 554 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_178
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " "
-    skip-cert-verify: true
-    tls: true
   - type: hysteria2
     name: 德国_30
     server: 85.209.53.170
@@ -3531,36 +3988,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: trojan
-    name: 香港_179
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "🔒 [By EbraSha] b2n.ir/v2ray-configs | 626 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_180
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_181
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] trojan-HK "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: hysteria2
     name: 德国_31
     server: 85.209.53.170
@@ -3569,407 +3996,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: trojan
-    name: 香港_182
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "  [By EbraSha] b2n.ir/v2ray-configs | 939 "
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_183
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "🔒 [By EbraSha] "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_184
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_185
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "🔒 [By EbraSha] trojan-HK "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_186
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs "
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_187
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 774 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_188
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] trojan-HK "
-    skip-cert-verify: true
-    tls: true
-  - type: vless
-    name: 02(TG:@tccjd)_7
-    server: 167.17.70.16
-    port: 8443
-    uuid: 55975415-43c0-461c-8752-d5b8013364e3
-    network: tcp
-    servername: www.microsoft.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 8W9r2aXGhKNtvPxnL6EiPpQuSm9OJT17x2xyxwxIo30
-      short-id: 84f70f1177981563
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 俄罗斯
-    server: 51.250.21.113
-    port: 7443
-    uuid: 2f0e01f3-8c74-458e-a474-b4aa4ac879aa
-    network: tcp
-    servername: ads.x5.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-      short-id: a20d3ed244c76426
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 香港_189
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 939 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_190
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: 58.152.30.120
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_191
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 626 "
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_192
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 774 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: vless
-    name: 俄罗斯_1
-    server: 51.250.24.245
-    port: 4249
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: tcp
-    servername: api-maps.yandex.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 香港_193
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 56 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_194
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_195
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: ������
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_196
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 422 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 加拿大
-    server: 209.200.246.53
-    port: 36774
-    password: Fv7ogJ6vfz
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_197
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "  [By EbraSha] b2n.ir/v2ray-configs "
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_198
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 374 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_199
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 626 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_200
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 56 "
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 英国
-    server: 145.223.70.115
-    port: 25365
-    password: eDHWaPzxcl
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
-  - type: vless
-    name: 俄罗斯_2
-    server: 51.250.25.11
-    port: 1488
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: tcp
-    servername: ads.x5.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 香港_201
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 920 "
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_202
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 317 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_203
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 409 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 印度尼西亚
-    server: 180.131.145.161
-    port: 23274
-    password: FodSUXysuS
-    network: grpc
-    sni: cloudflare.com
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_204
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs "
-    skip-cert-verify: true
-    tls: true
-  - type: vmess
-    name: 美国_32
-    server: 4cc8-a2d8-a34a20d2e7e5.457.pp.ua
-    port: 443
-    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: 4cc8-a2d8-a34a20d2e7e5.457.pp.ua
-    ws-opts:
-      path: /kT5VHYcMrphesqROzSPoHrBo
-      headers:
-        Host: 4cc8-a2d8-a34a20d2e7e5.457.pp.ua
-    tls: true
-  - type: trojan
-    name: 香港_205
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 605 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_206
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
-  - type: vless
-    name: 03(TG:@tccjd)_6
-    server: 151.101.195.6
-    port: 443
-    uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-    network: http
-    servername: hls-amt.itunes.apple.com
-    tls: true
-    encryption: none
-    http-opts:
-      path: /
-      headers:
-        Host: adsmiatm1764454498.global.ssl.fastly.net
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: trojan
-    name: 香港_207
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 306 "
-    skip-cert-verify: true
-    tls: true
-  - type: trojan
-    name: 香港_208
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: ������
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_209
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] b2n.ir/v2ray-configs | 303 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_210
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 303 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: trojan
-    name: 香港_211
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] [By EbraSha] b2n.ir/v2ray-configs | 306 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: hysteria2
     name: 德国_32
     server: 85.209.53.170
@@ -3978,15 +4004,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: trojan
-    name: 香港_212
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] [By EbraSha] b2n.ir/v2ray-configs "
-    skip-cert-verify: true
-    tls: true
   - type: hysteria2
     name: 德国_33
     server: 85.209.53.170
@@ -3995,79 +4012,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: trojan
-    name: 香港_213
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 554 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: vless
-    name: 04(TG:@tccjd)_5
-    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-    port: 443
-    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-    network: tcp
-    servername: i2pd.website
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-      short-id: 55e6af1a35e64a98
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 香港_214
-    server: 58.152.30.120
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "������ [By EbraSha] b2n.ir/v2ray-configs | 409 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
-  - type: vmess
-    name: 美国_33
-    server: 479b-b511-7D5B7828DbEb.457.PP.ua
-    port: 443
-    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
-    alterId: 0
-    network: xhttp
-    cipher: auto
-    servername: 479B-B511-7d5B7828DbEb.457.pp.UA
-    tls: true
-  - type: trojan
-    name: 香港_215
-    server: 58.152.25.242
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: " [By EbraSha] trojan-HK "
-    skip-cert-verify: true
-    tls: true
-  - type: vmess
-    name: 美国_34
-    server: 2237-4cE3-8698-cfD1b622333A.457.pp.uA
-    port: 443
-    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
-    alterId: 0
-    network: xhttp
-    cipher: auto
-    servername: 2237-4CE3-8698-CFd1b622333a.457.pP.UA
-    tls: true
-  - type: trojan
-    name: 香港_216
-    server: 58.152.25.20
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: "🔒 [By EbraSha] b2n.ir/v2ray-configs | 920 "
-    skip-cert-verify: true
-    fingerprint: chrome
-    tls: true
   - type: hysteria2
     name: 德国_34
     server: 85.209.53.170
@@ -4076,20 +4020,6 @@ proxies:
     skip-cert-verify: true
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - type: vless
-    name: 美国_35
-    server: us01-vlr01-gmn03.vpnvezdehod.net
-    port: 443
-    uuid: 2ca07504-c06a-41a4-b26b-99807a7d24cf
-    network: tcp
-    servername: hls-svod.itunes.apple.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 48720c
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: hysteria2
     name: 法国
     server: 163.172.21.105
@@ -4097,62 +4027,119 @@ proxies:
     password: dongtaiwang.com
     skip-cert-verify: true
     sni: www.bing.com
+  - type: tuic
+    name: 04(TG:@tccjd)_5
+    server: 192.3.105.7
+    port: 60000
+    uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769%3Af19c7009-7630-4bb4-b26d-09eec0b1b769
+    sni: linux.c97163.www.python.org
+    alpn:
+      - h3
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 01(TG:@tccjd)
+      - 🇬🇧 英国 V2CROSS.COM
       - 02(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 美国_12
+      - 01(TG:@tccjd)
+      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
+      - 美國
+      - 13(TG:@tccjd)
+      - 14(TG:@tccjd)
+      - 01(TG:@tccjd)_1
+      - 04(TG:@tccjd)_1
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)
+      - 美國_1
+      - 德國
+      - 保加利亚
+      - 保加利亚_1
+      - 保加利亚_2
+      - 美國_2
+      - 德國_1
+      - 保加利亚_3
+      - 德國_2
+      - 德國_3
+      - 俄羅斯
+      - 俄羅斯_1
+      - 俄羅斯_2
+      - 哈薩克斯坦
+      - 俄羅斯_3
+      - 伊朗
+      - 俄羅斯_4
+      - 伊朗_1
+      - 伊朗_2
+      - 伊朗_3
+      - 美國_3
+      - 伊朗_4
+      - 伊朗_5
+      - 哈薩克斯坦_1
+      - 俄羅斯_5
+      - 伊朗_6
+      - 美國_4
+      - 以色列
+      - 德国
+      - 以色列_1
+      - 美国_13
+      - 02(TG:@tccjd)_3
+      - 俄罗斯
+      - 俄罗斯_1
+      - 俄罗斯_2
+      - 04(TG:@tccjd)_2
+      - 美国_14
+      - 01(TG:@tccjd)_3
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_2
+      - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 13(TG:@tccjd)
-      - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 🇭🇰 香港家宽 02
       - 🇭🇰 香港家宽 05
-      - 🇬🇧 英国 V2CROSS.COM
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港4|@ripaojiedian
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 05(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
       - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_2
-      - 01(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
-      - 01(TG:@tccjd)_6
       - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
       - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
+      - 01(TG:@tccjd)_5
+      - 01(TG:@tccjd)_6
       - 02(TG:@tccjd)_6
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_7
+      - 02(TG:@tccjd)_7
       - 03(TG:@tccjd)_5
       - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
       - 香港
       - 香港_1
       - 香港_2
@@ -4195,28 +4182,18 @@ proxy-groups:
       - 香港_39
       - 香港_40
       - 香港_41
-      - 美國
       - 香港_42
-      - 德國
-      - 保加利亚
       - 香港_43
       - 香港_44
-      - 保加利亚_1
-      - 保加利亚_2
-      - 美國_1
       - 香港_45
       - 香港_46
-      - 德國_1
       - 香港_47
       - 香港_48
       - 香港_49
-      - 保加利亚_3
       - 香港_50
       - 香港_51
       - 香港_52
-      - 德國_2
       - 香港_53
-      - 德國_3
       - 香港_54
       - 香港_55
       - 香港_56
@@ -4235,66 +4212,29 @@ proxy-groups:
       - 香港_69
       - 香港_70
       - 香港_71
-      - 德國_4
       - 香港_72
-      - 德國_5
       - 香港_73
       - 香港_74
-      - 德國_6
       - 香港_75
-      - 德國_7
-      - 德國_8
-      - 德國_9
-      - 德國_10
-      - 德國_11
-      - 德國_12
       - 香港_76
-      - 德國_13
-      - 俄羅斯
-      - 德國_14
-      - 德國_15
-      - 德國_16
-      - 德國_17
-      - 德國_18
       - 香港_77
-      - 德國_19
-      - 德國_20
-      - 德國_21
-      - 德國_22
-      - 德國_23
-      - 德國_24
       - 香港_78
       - 香港_79
-      - 德國_25
-      - 德國_26
-      - 德國_27
       - 香港_80
-      - 德國_28
       - 香港_81
-      - 德國_29
-      - 德國_30
       - 香港_82
       - 香港_83
       - 香港_84
-      - 俄羅斯_1
-      - 俄羅斯_2
-      - 哈薩克斯坦
       - 香港_85
       - 香港_86
-      - 俄羅斯_3
-      - 伊朗
       - 香港_87
-      - 俄羅斯_4
       - 香港_88
       - 香港_89
       - 香港_90
-      - 伊朗_1
       - 香港_91
       - 香港_92
-      - 德國_31
       - 香港_93
       - 香港_94
-      - 伊朗_2
       - 香港_95
       - 香港_96
       - 香港_97
@@ -4306,62 +4246,22 @@ proxy-groups:
       - 香港_103
       - 香港_104
       - 香港_105
-      - 美國_2
+      - 美國_5
       - 香港_106
       - 香港_107
       - 香港_108
       - 香港_109
       - 香港_110
-      - 德國_32
       - 香港_111
-      - 伊朗_3
       - 香港_112
-      - 德國_33
       - 香港_113
-      - 德國_34
       - 香港_114
       - 香港_115
-      - 美國_3
       - 香港_116
-      - 美国
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - 伊朗_4
-      - 伊朗_5
-      - 美国_4
-      - 哈薩克斯坦_1
-      - 美国_5
-      - 美国_6
-      - 美国_7
-      - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
       - 美国_15
-      - 德國_35
       - 美国_16
-      - 香港_117
       - 美国_17
-      - 德國_36
-      - 德國_37
-      - 德國_38
-      - 俄羅斯_5
-      - 德國_39
-      - 德國_40
-      - 德國_41
-      - 德國_42
-      - 德國_43
-      - 德國_44
-      - 美國_4
-      - 法國
       - 美国_18
-      - 伊朗_6
-      - 美國_5
-      - 以色列
       - 美国_19
       - 美国_20
       - 美国_21
@@ -4374,6 +4274,12 @@ proxy-groups:
       - 美国_28
       - 美国_29
       - 美国_30
+      - 美国_31
+      - 香港_117
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
       - 香港（2025.12.13更新）
       - 香港_118
       - 香港_119
@@ -4410,7 +4316,6 @@ proxy-groups:
       - 香港_150
       - 香港_151
       - 香港_152
-      - 德国
       - 香港_153
       - 香港_154
       - 香港_155
@@ -4418,7 +4323,6 @@ proxy-groups:
       - 香港_157
       - 香港_158
       - 香港_159
-      - 以色列_1
       - 香港_160
       - 香港_161
       - 香港_162
@@ -4432,6 +4336,92 @@ proxy-groups:
       - 香港_170
       - 香港_171
       - 香港_172
+      - 香港_173
+      - 香港_174
+      - 香港_175
+      - 香港_176
+      - 香港_177
+      - 香港_178
+      - 香港_179
+      - 香港_180
+      - 香港_181
+      - 香港_182
+      - 香港_183
+      - 香港_184
+      - 香港_185
+      - 香港_186
+      - 香港_187
+      - 香港_188
+      - 香港_189
+      - 香港_190
+      - 香港_191
+      - 香港_192
+      - 香港_193
+      - 香港_194
+      - 香港_195
+      - 香港_196
+      - 香港_197
+      - 香港_198
+      - 香港_199
+      - 香港_200
+      - 香港_201
+      - 香港_202
+      - 香港_203
+      - 香港_204
+      - 香港_205
+      - 香港_206
+      - 香港_207
+      - 香港_208
+      - 香港_209
+      - 香港_210
+      - 香港_211
+      - 香港_212
+      - 香港_213
+      - 香港_214
+      - 香港_215
+      - 香港_216
+      - 德國_4
+      - 德國_5
+      - 德國_6
+      - 德國_7
+      - 德國_8
+      - 德國_9
+      - 德國_10
+      - 德國_11
+      - 德國_12
+      - 德國_13
+      - 德國_14
+      - 德國_15
+      - 德國_16
+      - 德國_17
+      - 德國_18
+      - 德國_19
+      - 德國_20
+      - 德國_21
+      - 德國_22
+      - 德國_23
+      - 德國_24
+      - 德國_25
+      - 德國_26
+      - 德國_27
+      - 德國_28
+      - 德國_29
+      - 德國_30
+      - 德國_31
+      - 德國_32
+      - 德國_33
+      - 德國_34
+      - 德國_35
+      - 德國_36
+      - 德國_37
+      - 德國_38
+      - 德國_39
+      - 德國_40
+      - 德國_41
+      - 德國_42
+      - 德國_43
+      - 德國_44
+      - 法國
       - 01(TG:@tccjd)_8
       - 德国_1
       - 德国_2
@@ -4442,7 +4432,6 @@ proxy-groups:
       - 德国_7
       - 德国_8
       - 德国_9
-      - 香港_173
       - 德国_10
       - 德国_11
       - 德国_12
@@ -4453,8 +4442,6 @@ proxy-groups:
       - 德国_17
       - 德国_18
       - 德国_19
-      - 香港_174
-      - 香港_175
       - 德国_20
       - 德国_21
       - 德国_22
@@ -4464,121 +4451,115 @@ proxy-groups:
       - 德国_26
       - 德国_27
       - 德国_28
-      - 美国_31
-      - 香港_176
       - 德国_29
-      - 香港_177
-      - 香港_178
       - 德国_30
-      - 香港_179
-      - 香港_180
-      - 香港_181
       - 德国_31
-      - 香港_182
-      - 香港_183
-      - 香港_184
-      - 香港_185
-      - 香港_186
-      - 香港_187
-      - 香港_188
-      - 02(TG:@tccjd)_7
-      - 俄罗斯
-      - 香港_189
-      - 香港_190
-      - 香港_191
-      - 香港_192
-      - 俄罗斯_1
-      - 香港_193
-      - 香港_194
-      - 香港_195
-      - 香港_196
-      - 加拿大
-      - 香港_197
-      - 香港_198
-      - 香港_199
-      - 香港_200
-      - 英国
-      - 俄罗斯_2
-      - 香港_201
-      - 香港_202
-      - 香港_203
-      - 印度尼西亚
-      - 香港_204
-      - 美国_32
-      - 香港_205
-      - 香港_206
-      - 03(TG:@tccjd)_6
-      - 香港_207
-      - 香港_208
-      - 香港_209
-      - 香港_210
-      - 香港_211
       - 德国_32
-      - 香港_212
       - 德国_33
-      - 香港_213
-      - 04(TG:@tccjd)_5
-      - 香港_214
-      - 美国_33
-      - 香港_215
-      - 美国_34
-      - 香港_216
       - 德国_34
-      - 美国_35
       - 法国
+      - 04(TG:@tccjd)_5
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 01(TG:@tccjd)
+      - 🇬🇧 英国 V2CROSS.COM
       - 02(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 美国_12
+      - 01(TG:@tccjd)
+      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
+      - 美國
+      - 13(TG:@tccjd)
+      - 14(TG:@tccjd)
+      - 01(TG:@tccjd)_1
+      - 04(TG:@tccjd)_1
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)
+      - 美國_1
+      - 德國
+      - 保加利亚
+      - 保加利亚_1
+      - 保加利亚_2
+      - 美國_2
+      - 德國_1
+      - 保加利亚_3
+      - 德國_2
+      - 德國_3
+      - 俄羅斯
+      - 俄羅斯_1
+      - 俄羅斯_2
+      - 哈薩克斯坦
+      - 俄羅斯_3
+      - 伊朗
+      - 俄羅斯_4
+      - 伊朗_1
+      - 伊朗_2
+      - 伊朗_3
+      - 美國_3
+      - 伊朗_4
+      - 伊朗_5
+      - 哈薩克斯坦_1
+      - 俄羅斯_5
+      - 伊朗_6
+      - 美國_4
+      - 以色列
+      - 德国
+      - 以色列_1
+      - 美国_13
+      - 02(TG:@tccjd)_3
+      - 俄罗斯
+      - 俄罗斯_1
+      - 俄罗斯_2
+      - 04(TG:@tccjd)_2
+      - 美国_14
+      - 01(TG:@tccjd)_3
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_2
+      - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 13(TG:@tccjd)
-      - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 🇭🇰 香港家宽 02
       - 🇭🇰 香港家宽 05
-      - 🇬🇧 英国 V2CROSS.COM
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港4|@ripaojiedian
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 05(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
       - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_2
-      - 01(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
-      - 01(TG:@tccjd)_6
       - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
       - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
+      - 01(TG:@tccjd)_5
+      - 01(TG:@tccjd)_6
       - 02(TG:@tccjd)_6
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_7
+      - 02(TG:@tccjd)_7
       - 03(TG:@tccjd)_5
       - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
       - 香港
       - 香港_1
       - 香港_2
@@ -4621,28 +4602,18 @@ proxy-groups:
       - 香港_39
       - 香港_40
       - 香港_41
-      - 美國
       - 香港_42
-      - 德國
-      - 保加利亚
       - 香港_43
       - 香港_44
-      - 保加利亚_1
-      - 保加利亚_2
-      - 美國_1
       - 香港_45
       - 香港_46
-      - 德國_1
       - 香港_47
       - 香港_48
       - 香港_49
-      - 保加利亚_3
       - 香港_50
       - 香港_51
       - 香港_52
-      - 德國_2
       - 香港_53
-      - 德國_3
       - 香港_54
       - 香港_55
       - 香港_56
@@ -4661,66 +4632,29 @@ proxy-groups:
       - 香港_69
       - 香港_70
       - 香港_71
-      - 德國_4
       - 香港_72
-      - 德國_5
       - 香港_73
       - 香港_74
-      - 德國_6
       - 香港_75
-      - 德國_7
-      - 德國_8
-      - 德國_9
-      - 德國_10
-      - 德國_11
-      - 德國_12
       - 香港_76
-      - 德國_13
-      - 俄羅斯
-      - 德國_14
-      - 德國_15
-      - 德國_16
-      - 德國_17
-      - 德國_18
       - 香港_77
-      - 德國_19
-      - 德國_20
-      - 德國_21
-      - 德國_22
-      - 德國_23
-      - 德國_24
       - 香港_78
       - 香港_79
-      - 德國_25
-      - 德國_26
-      - 德國_27
       - 香港_80
-      - 德國_28
       - 香港_81
-      - 德國_29
-      - 德國_30
       - 香港_82
       - 香港_83
       - 香港_84
-      - 俄羅斯_1
-      - 俄羅斯_2
-      - 哈薩克斯坦
       - 香港_85
       - 香港_86
-      - 俄羅斯_3
-      - 伊朗
       - 香港_87
-      - 俄羅斯_4
       - 香港_88
       - 香港_89
       - 香港_90
-      - 伊朗_1
       - 香港_91
       - 香港_92
-      - 德國_31
       - 香港_93
       - 香港_94
-      - 伊朗_2
       - 香港_95
       - 香港_96
       - 香港_97
@@ -4732,62 +4666,22 @@ proxy-groups:
       - 香港_103
       - 香港_104
       - 香港_105
-      - 美國_2
+      - 美國_5
       - 香港_106
       - 香港_107
       - 香港_108
       - 香港_109
       - 香港_110
-      - 德國_32
       - 香港_111
-      - 伊朗_3
       - 香港_112
-      - 德國_33
       - 香港_113
-      - 德國_34
       - 香港_114
       - 香港_115
-      - 美國_3
       - 香港_116
-      - 美国
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - 伊朗_4
-      - 伊朗_5
-      - 美国_4
-      - 哈薩克斯坦_1
-      - 美国_5
-      - 美国_6
-      - 美国_7
-      - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
       - 美国_15
-      - 德國_35
       - 美国_16
-      - 香港_117
       - 美国_17
-      - 德國_36
-      - 德國_37
-      - 德國_38
-      - 俄羅斯_5
-      - 德國_39
-      - 德國_40
-      - 德國_41
-      - 德國_42
-      - 德國_43
-      - 德國_44
-      - 美國_4
-      - 法國
       - 美国_18
-      - 伊朗_6
-      - 美國_5
-      - 以色列
       - 美国_19
       - 美国_20
       - 美国_21
@@ -4800,6 +4694,12 @@ proxy-groups:
       - 美国_28
       - 美国_29
       - 美国_30
+      - 美国_31
+      - 香港_117
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
       - 香港（2025.12.13更新）
       - 香港_118
       - 香港_119
@@ -4836,7 +4736,6 @@ proxy-groups:
       - 香港_150
       - 香港_151
       - 香港_152
-      - 德国
       - 香港_153
       - 香港_154
       - 香港_155
@@ -4844,7 +4743,6 @@ proxy-groups:
       - 香港_157
       - 香港_158
       - 香港_159
-      - 以色列_1
       - 香港_160
       - 香港_161
       - 香港_162
@@ -4858,6 +4756,92 @@ proxy-groups:
       - 香港_170
       - 香港_171
       - 香港_172
+      - 香港_173
+      - 香港_174
+      - 香港_175
+      - 香港_176
+      - 香港_177
+      - 香港_178
+      - 香港_179
+      - 香港_180
+      - 香港_181
+      - 香港_182
+      - 香港_183
+      - 香港_184
+      - 香港_185
+      - 香港_186
+      - 香港_187
+      - 香港_188
+      - 香港_189
+      - 香港_190
+      - 香港_191
+      - 香港_192
+      - 香港_193
+      - 香港_194
+      - 香港_195
+      - 香港_196
+      - 香港_197
+      - 香港_198
+      - 香港_199
+      - 香港_200
+      - 香港_201
+      - 香港_202
+      - 香港_203
+      - 香港_204
+      - 香港_205
+      - 香港_206
+      - 香港_207
+      - 香港_208
+      - 香港_209
+      - 香港_210
+      - 香港_211
+      - 香港_212
+      - 香港_213
+      - 香港_214
+      - 香港_215
+      - 香港_216
+      - 德國_4
+      - 德國_5
+      - 德國_6
+      - 德國_7
+      - 德國_8
+      - 德國_9
+      - 德國_10
+      - 德國_11
+      - 德國_12
+      - 德國_13
+      - 德國_14
+      - 德國_15
+      - 德國_16
+      - 德國_17
+      - 德國_18
+      - 德國_19
+      - 德國_20
+      - 德國_21
+      - 德國_22
+      - 德國_23
+      - 德國_24
+      - 德國_25
+      - 德國_26
+      - 德國_27
+      - 德國_28
+      - 德國_29
+      - 德國_30
+      - 德國_31
+      - 德國_32
+      - 德國_33
+      - 德國_34
+      - 德國_35
+      - 德國_36
+      - 德國_37
+      - 德國_38
+      - 德國_39
+      - 德國_40
+      - 德國_41
+      - 德國_42
+      - 德國_43
+      - 德國_44
+      - 法國
       - 01(TG:@tccjd)_8
       - 德国_1
       - 德国_2
@@ -4868,7 +4852,6 @@ proxy-groups:
       - 德国_7
       - 德国_8
       - 德国_9
-      - 香港_173
       - 德国_10
       - 德国_11
       - 德国_12
@@ -4879,8 +4862,6 @@ proxy-groups:
       - 德国_17
       - 德国_18
       - 德国_19
-      - 香港_174
-      - 香港_175
       - 德国_20
       - 德国_21
       - 德国_22
@@ -4890,68 +4871,14 @@ proxy-groups:
       - 德国_26
       - 德国_27
       - 德国_28
-      - 美国_31
-      - 香港_176
       - 德国_29
-      - 香港_177
-      - 香港_178
       - 德国_30
-      - 香港_179
-      - 香港_180
-      - 香港_181
       - 德国_31
-      - 香港_182
-      - 香港_183
-      - 香港_184
-      - 香港_185
-      - 香港_186
-      - 香港_187
-      - 香港_188
-      - 02(TG:@tccjd)_7
-      - 俄罗斯
-      - 香港_189
-      - 香港_190
-      - 香港_191
-      - 香港_192
-      - 俄罗斯_1
-      - 香港_193
-      - 香港_194
-      - 香港_195
-      - 香港_196
-      - 加拿大
-      - 香港_197
-      - 香港_198
-      - 香港_199
-      - 香港_200
-      - 英国
-      - 俄罗斯_2
-      - 香港_201
-      - 香港_202
-      - 香港_203
-      - 印度尼西亚
-      - 香港_204
-      - 美国_32
-      - 香港_205
-      - 香港_206
-      - 03(TG:@tccjd)_6
-      - 香港_207
-      - 香港_208
-      - 香港_209
-      - 香港_210
-      - 香港_211
       - 德国_32
-      - 香港_212
       - 德国_33
-      - 香港_213
-      - 04(TG:@tccjd)_5
-      - 香港_214
-      - 美国_33
-      - 香港_215
-      - 美国_34
-      - 香港_216
       - 德国_34
-      - 美国_35
       - 法国
+      - 04(TG:@tccjd)_5
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -4971,56 +4898,104 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 01(TG:@tccjd)
+      - 🇬🇧 英国 V2CROSS.COM
       - 02(TG:@tccjd)
+      - 美国
+      - 美国_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 美国_12
+      - 01(TG:@tccjd)
+      - 02(TG:@tccjd)_1
       - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
+      - 美國
+      - 13(TG:@tccjd)
+      - 14(TG:@tccjd)
+      - 01(TG:@tccjd)_1
+      - 04(TG:@tccjd)_1
+      - 01(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
       - 07(TG:@tccjd)
+      - 美國_1
+      - 德國
+      - 保加利亚
+      - 保加利亚_1
+      - 保加利亚_2
+      - 美國_2
+      - 德國_1
+      - 保加利亚_3
+      - 德國_2
+      - 德國_3
+      - 俄羅斯
+      - 俄羅斯_1
+      - 俄羅斯_2
+      - 哈薩克斯坦
+      - 俄羅斯_3
+      - 伊朗
+      - 俄羅斯_4
+      - 伊朗_1
+      - 伊朗_2
+      - 伊朗_3
+      - 美國_3
+      - 伊朗_4
+      - 伊朗_5
+      - 哈薩克斯坦_1
+      - 俄羅斯_5
+      - 伊朗_6
+      - 美國_4
+      - 以色列
+      - 德国
+      - 以色列_1
+      - 美国_13
+      - 02(TG:@tccjd)_3
+      - 俄罗斯
+      - 俄罗斯_1
+      - 俄罗斯_2
+      - 04(TG:@tccjd)_2
+      - 美国_14
+      - 01(TG:@tccjd)_3
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_2
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_2
+      - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)
       - 09(TG:@tccjd)
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 13(TG:@tccjd)
-      - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 🇭🇰 香港家宽 02
       - 🇭🇰 香港家宽 05
-      - 🇬🇧 英国 V2CROSS.COM
-      - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港4|@ripaojiedian
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 05(TG:@tccjd)_1
-      - 01(TG:@tccjd)_3
       - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_2
-      - 01(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
-      - 01(TG:@tccjd)_6
       - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
       - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_7
+      - 01(TG:@tccjd)_5
+      - 01(TG:@tccjd)_6
       - 02(TG:@tccjd)_6
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_7
+      - 02(TG:@tccjd)_7
       - 03(TG:@tccjd)_5
       - 04(TG:@tccjd)_4
       - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_2
-      - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
       - 香港
       - 香港_1
       - 香港_2
@@ -5063,28 +5038,18 @@ proxy-groups:
       - 香港_39
       - 香港_40
       - 香港_41
-      - 美國
       - 香港_42
-      - 德國
-      - 保加利亚
       - 香港_43
       - 香港_44
-      - 保加利亚_1
-      - 保加利亚_2
-      - 美國_1
       - 香港_45
       - 香港_46
-      - 德國_1
       - 香港_47
       - 香港_48
       - 香港_49
-      - 保加利亚_3
       - 香港_50
       - 香港_51
       - 香港_52
-      - 德國_2
       - 香港_53
-      - 德國_3
       - 香港_54
       - 香港_55
       - 香港_56
@@ -5103,66 +5068,29 @@ proxy-groups:
       - 香港_69
       - 香港_70
       - 香港_71
-      - 德國_4
       - 香港_72
-      - 德國_5
       - 香港_73
       - 香港_74
-      - 德國_6
       - 香港_75
-      - 德國_7
-      - 德國_8
-      - 德國_9
-      - 德國_10
-      - 德國_11
-      - 德國_12
       - 香港_76
-      - 德國_13
-      - 俄羅斯
-      - 德國_14
-      - 德國_15
-      - 德國_16
-      - 德國_17
-      - 德國_18
       - 香港_77
-      - 德國_19
-      - 德國_20
-      - 德國_21
-      - 德國_22
-      - 德國_23
-      - 德國_24
       - 香港_78
       - 香港_79
-      - 德國_25
-      - 德國_26
-      - 德國_27
       - 香港_80
-      - 德國_28
       - 香港_81
-      - 德國_29
-      - 德國_30
       - 香港_82
       - 香港_83
       - 香港_84
-      - 俄羅斯_1
-      - 俄羅斯_2
-      - 哈薩克斯坦
       - 香港_85
       - 香港_86
-      - 俄羅斯_3
-      - 伊朗
       - 香港_87
-      - 俄羅斯_4
       - 香港_88
       - 香港_89
       - 香港_90
-      - 伊朗_1
       - 香港_91
       - 香港_92
-      - 德國_31
       - 香港_93
       - 香港_94
-      - 伊朗_2
       - 香港_95
       - 香港_96
       - 香港_97
@@ -5174,62 +5102,22 @@ proxy-groups:
       - 香港_103
       - 香港_104
       - 香港_105
-      - 美國_2
+      - 美國_5
       - 香港_106
       - 香港_107
       - 香港_108
       - 香港_109
       - 香港_110
-      - 德國_32
       - 香港_111
-      - 伊朗_3
       - 香港_112
-      - 德國_33
       - 香港_113
-      - 德國_34
       - 香港_114
       - 香港_115
-      - 美國_3
       - 香港_116
-      - 美国
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - 伊朗_4
-      - 伊朗_5
-      - 美国_4
-      - 哈薩克斯坦_1
-      - 美国_5
-      - 美国_6
-      - 美国_7
-      - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
       - 美国_15
-      - 德國_35
       - 美国_16
-      - 香港_117
       - 美国_17
-      - 德國_36
-      - 德國_37
-      - 德國_38
-      - 俄羅斯_5
-      - 德國_39
-      - 德國_40
-      - 德國_41
-      - 德國_42
-      - 德國_43
-      - 德國_44
-      - 美國_4
-      - 法國
       - 美国_18
-      - 伊朗_6
-      - 美國_5
-      - 以色列
       - 美国_19
       - 美国_20
       - 美国_21
@@ -5242,6 +5130,12 @@ proxy-groups:
       - 美国_28
       - 美国_29
       - 美国_30
+      - 美国_31
+      - 香港_117
+      - 美国_32
+      - 美国_33
+      - 美国_34
+      - 美国_35
       - 香港（2025.12.13更新）
       - 香港_118
       - 香港_119
@@ -5278,7 +5172,6 @@ proxy-groups:
       - 香港_150
       - 香港_151
       - 香港_152
-      - 德国
       - 香港_153
       - 香港_154
       - 香港_155
@@ -5286,7 +5179,6 @@ proxy-groups:
       - 香港_157
       - 香港_158
       - 香港_159
-      - 以色列_1
       - 香港_160
       - 香港_161
       - 香港_162
@@ -5300,6 +5192,92 @@ proxy-groups:
       - 香港_170
       - 香港_171
       - 香港_172
+      - 香港_173
+      - 香港_174
+      - 香港_175
+      - 香港_176
+      - 香港_177
+      - 香港_178
+      - 香港_179
+      - 香港_180
+      - 香港_181
+      - 香港_182
+      - 香港_183
+      - 香港_184
+      - 香港_185
+      - 香港_186
+      - 香港_187
+      - 香港_188
+      - 香港_189
+      - 香港_190
+      - 香港_191
+      - 香港_192
+      - 香港_193
+      - 香港_194
+      - 香港_195
+      - 香港_196
+      - 香港_197
+      - 香港_198
+      - 香港_199
+      - 香港_200
+      - 香港_201
+      - 香港_202
+      - 香港_203
+      - 香港_204
+      - 香港_205
+      - 香港_206
+      - 香港_207
+      - 香港_208
+      - 香港_209
+      - 香港_210
+      - 香港_211
+      - 香港_212
+      - 香港_213
+      - 香港_214
+      - 香港_215
+      - 香港_216
+      - 德國_4
+      - 德國_5
+      - 德國_6
+      - 德國_7
+      - 德國_8
+      - 德國_9
+      - 德國_10
+      - 德國_11
+      - 德國_12
+      - 德國_13
+      - 德國_14
+      - 德國_15
+      - 德國_16
+      - 德國_17
+      - 德國_18
+      - 德國_19
+      - 德國_20
+      - 德國_21
+      - 德國_22
+      - 德國_23
+      - 德國_24
+      - 德國_25
+      - 德國_26
+      - 德國_27
+      - 德國_28
+      - 德國_29
+      - 德國_30
+      - 德國_31
+      - 德國_32
+      - 德國_33
+      - 德國_34
+      - 德國_35
+      - 德國_36
+      - 德國_37
+      - 德國_38
+      - 德國_39
+      - 德國_40
+      - 德國_41
+      - 德國_42
+      - 德國_43
+      - 德國_44
+      - 法國
       - 01(TG:@tccjd)_8
       - 德国_1
       - 德国_2
@@ -5310,7 +5288,6 @@ proxy-groups:
       - 德国_7
       - 德国_8
       - 德国_9
-      - 香港_173
       - 德国_10
       - 德国_11
       - 德国_12
@@ -5321,8 +5298,6 @@ proxy-groups:
       - 德国_17
       - 德国_18
       - 德国_19
-      - 香港_174
-      - 香港_175
       - 德国_20
       - 德国_21
       - 德国_22
@@ -5332,68 +5307,14 @@ proxy-groups:
       - 德国_26
       - 德国_27
       - 德国_28
-      - 美国_31
-      - 香港_176
       - 德国_29
-      - 香港_177
-      - 香港_178
       - 德国_30
-      - 香港_179
-      - 香港_180
-      - 香港_181
       - 德国_31
-      - 香港_182
-      - 香港_183
-      - 香港_184
-      - 香港_185
-      - 香港_186
-      - 香港_187
-      - 香港_188
-      - 02(TG:@tccjd)_7
-      - 俄罗斯
-      - 香港_189
-      - 香港_190
-      - 香港_191
-      - 香港_192
-      - 俄罗斯_1
-      - 香港_193
-      - 香港_194
-      - 香港_195
-      - 香港_196
-      - 加拿大
-      - 香港_197
-      - 香港_198
-      - 香港_199
-      - 香港_200
-      - 英国
-      - 俄罗斯_2
-      - 香港_201
-      - 香港_202
-      - 香港_203
-      - 印度尼西亚
-      - 香港_204
-      - 美国_32
-      - 香港_205
-      - 香港_206
-      - 03(TG:@tccjd)_6
-      - 香港_207
-      - 香港_208
-      - 香港_209
-      - 香港_210
-      - 香港_211
       - 德国_32
-      - 香港_212
       - 德国_33
-      - 香港_213
-      - 04(TG:@tccjd)_5
-      - 香港_214
-      - 美国_33
-      - 香港_215
-      - 美国_34
-      - 香港_216
       - 德国_34
-      - 美国_35
       - 法国
+      - 04(TG:@tccjd)_5
 rule-providers:
   LocalAreaNetwork:
     type: http
