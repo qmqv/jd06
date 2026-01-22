@@ -46,6 +46,33 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 🇩🇪 德国 | DEU
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇦 乌克兰 V2CROSS.COM
+    type: ss
+    server: 163.171.137.72
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: d27faed8a9b98bd0
+  - name: 🇺🇸 美国 (TG:@tccjd)
+    type: ss
+    server: 15.204.74.40
+    port: 13021
+    cipher: chacha20-ietf-poly1305
+    password: 913fcc3aeb16eba3
+  - name: 04(TG:@tccjd)
+    type: ss
+    server: 15.204.74.40
+    port: 13021
+    cipher: chacha20-ietf-poly1305
+    password: 913fcc3aeb16eba3
   - name: 🇯🇵 日本 | JPN
     type: vless
     server: staticdelivery.nexusmods.com
@@ -85,23 +112,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: l.ayovo.netlib.re
-  - name: 🇩🇪 德国 | DEU
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇭🇰 香港 | HKG
-    type: trojan
-    server: 58.152.25.130
-    port: 443
-    password: BxceQaOe
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: true
   - name: 🇵🇱 波兰 | POL
     type: vless
     server: plcdn20.suio.me
@@ -121,22 +131,6 @@ proxies:
       path: /?ed=2048
       headers:
         Host: speed1.best-cloud.ir
-  - name: 🇯🇵 日本3|@ripaojiedian
-    type: trojan
-    server: 160.16.89.176
-    port: 1933
-    password: 869e9086806483ca4744a4cb0f3d6e16
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-    tls: true
-  - name: 🇭🇰 香港3|@ripaojiedian
-    type: trojan
-    server: 58.152.18.124
-    port: 443
-    password: 869e9086806483ca4744a4cb0f3d6e16
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-    tls: true
   - name: 01(TG:@tccjd)
     type: vless
     server: octopusss5.info
@@ -151,26 +145,6 @@ proxies:
     reality-opts:
       public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
       short-id: 6ba85179e30d4fc2
-  - name: 🇸🇬 新加坡|@ripaojiedian
-    type: trojan
-    server: 160.16.89.176
-    port: 3076
-    password: 869e9086806483ca4744a4cb0f3d6e16
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-    tls: true
-  - name: 🇺🇦 乌克兰 V2CROSS.COM
-    type: ss
-    server: 163.171.137.72
-    port: 11201
-    cipher: chacha20-ietf-poly1305
-    password: d27faed8a9b98bd0
-  - name: 🇺🇸 美国 (TG:@tccjd)
-    type: ss
-    server: 15.204.74.40
-    port: 13021
-    cipher: chacha20-ietf-poly1305
-    password: 913fcc3aeb16eba3
   - name: 02(TG:@tccjd)
     type: vless
     server: 45.82.246.114
@@ -196,38 +170,6 @@ proxies:
       path: /thisway
       headers:
         Host: main.shieldpath.ir
-  - name: 02(TG:@tccjd)_1
-    type: vless
-    server: cdn.halazzon.ir
-    port: 2083
-    uuid: 33f2f3cd-0d71-4ab2-b81a-39daeeaeb919
-    network: http
-    servername: digikala.snapp.dpdns.org
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path: /Penubit
-      headers:
-        Host: digikala.snapp.dpdns.org
-  - name: 03(TG:@tccjd)
-    type: vless
-    server: cdn.halazzon.ir
-    port: 2083
-    uuid: 33f2f3cd-0d71-4ab2-b81a-39daeeaeb919
-    network: http
-    servername: digikala.snapp.dpdns.org
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path: /Penubit
-      headers:
-        Host: digikala.snapp.dpdns.org
-  - name: 04(TG:@tccjd)
-    type: ss
-    server: 15.204.74.40
-    port: 13021
-    cipher: chacha20-ietf-poly1305
-    password: 913fcc3aeb16eba3
   - name: 01(TG:@tccjd)_2
     type: vless
     server: 194.117.64.92
@@ -985,7 +927,7 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
-  - name: 02(TG:@tccjd)_2
+  - name: 02(TG:@tccjd)_1
     type: vless
     server: octopusss5.info
     port: 22955
@@ -999,7 +941,7 @@ proxies:
     reality-opts:
       public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
       short-id: 6ba85179e30d4fc2
-  - name: 03(TG:@tccjd)_1
+  - name: 03(TG:@tccjd)
     type: vless
     server: octopusss5.info
     port: 22955
@@ -1446,6 +1388,38 @@ proxies:
     reality-opts:
       public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
       short-id: 6ba85179e30d4fc2
+  - name: 🇭🇰 香港 | HKG
+    type: trojan
+    server: 58.152.25.130
+    port: 443
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - name: 🇯🇵 日本3|@ripaojiedian
+    type: trojan
+    server: 160.16.89.176
+    port: 1933
+    password: 869e9086806483ca4744a4cb0f3d6e16
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+    tls: true
+  - name: 🇭🇰 香港3|@ripaojiedian
+    type: trojan
+    server: 58.152.18.124
+    port: 443
+    password: 869e9086806483ca4744a4cb0f3d6e16
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+    tls: true
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    type: trojan
+    server: 160.16.89.176
+    port: 3076
+    password: 869e9086806483ca4744a4cb0f3d6e16
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+    tls: true
   - name: 45(TG:@tccjd)
     type: trojan
     server: 58.152.25.130
@@ -1460,24 +1434,18 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇩🇪 德国 | DEU
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇺🇸 美国 (TG:@tccjd)
+      - 04(TG:@tccjd)
       - 🇯🇵 日本 | JPN
       - 🇸🇬 新加坡 | SGP
       - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU
-      - 🇭🇰 香港 | HKG
       - 🇵🇱 波兰 | POL
       - 🇩🇪 德国 | DEU_1
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
       - 01(TG:@tccjd)
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
       - 01(TG:@tccjd)_2
       - 法國
       - 德國
@@ -1545,8 +1513,8 @@ proxy-groups:
       - 53(TG:@tccjd)
       - 54(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
+      - 02(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -1585,28 +1553,26 @@ proxy-groups:
       - 39(TG:@tccjd)
       - 40(TG:@tccjd)
       - 41(TG:@tccjd)
+      - 🇭🇰 香港 | HKG
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 45(TG:@tccjd)
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - 🇩🇪 德国 | DEU
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇺🇸 美国 (TG:@tccjd)
+      - 04(TG:@tccjd)
       - 🇯🇵 日本 | JPN
       - 🇸🇬 新加坡 | SGP
       - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU
-      - 🇭🇰 香港 | HKG
       - 🇵🇱 波兰 | POL
       - 🇩🇪 德国 | DEU_1
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
       - 01(TG:@tccjd)
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
       - 01(TG:@tccjd)_2
       - 法國
       - 德國
@@ -1674,8 +1640,8 @@ proxy-groups:
       - 53(TG:@tccjd)
       - 54(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
+      - 02(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -1714,6 +1680,10 @@ proxy-groups:
       - 39(TG:@tccjd)
       - 40(TG:@tccjd)
       - 41(TG:@tccjd)
+      - 🇭🇰 香港 | HKG
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 45(TG:@tccjd)
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -1724,24 +1694,18 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇩🇪 德国 | DEU
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇺🇸 美国 (TG:@tccjd)
+      - 04(TG:@tccjd)
       - 🇯🇵 日本 | JPN
       - 🇸🇬 新加坡 | SGP
       - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU
-      - 🇭🇰 香港 | HKG
       - 🇵🇱 波兰 | POL
       - 🇩🇪 德国 | DEU_1
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
       - 01(TG:@tccjd)
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
       - 01(TG:@tccjd)_2
       - 法國
       - 德國
@@ -1809,8 +1773,8 @@ proxy-groups:
       - 53(TG:@tccjd)
       - 54(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
+      - 02(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -1849,30 +1813,28 @@ proxy-groups:
       - 39(TG:@tccjd)
       - 40(TG:@tccjd)
       - 41(TG:@tccjd)
+      - 🇭🇰 香港 | HKG
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 45(TG:@tccjd)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇩🇪 德国 | DEU
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇺🇸 美国 (TG:@tccjd)
+      - 04(TG:@tccjd)
       - 🇯🇵 日本 | JPN
       - 🇸🇬 新加坡 | SGP
       - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU
-      - 🇭🇰 香港 | HKG
       - 🇵🇱 波兰 | POL
       - 🇩🇪 德国 | DEU_1
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
       - 01(TG:@tccjd)
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
       - 01(TG:@tccjd)_2
       - 法國
       - 德國
@@ -1940,8 +1902,8 @@ proxy-groups:
       - 53(TG:@tccjd)
       - 54(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
+      - 02(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -1980,30 +1942,28 @@ proxy-groups:
       - 39(TG:@tccjd)
       - 40(TG:@tccjd)
       - 41(TG:@tccjd)
+      - 🇭🇰 香港 | HKG
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 45(TG:@tccjd)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇩🇪 德国 | DEU
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇺🇸 美国 (TG:@tccjd)
+      - 04(TG:@tccjd)
       - 🇯🇵 日本 | JPN
       - 🇸🇬 新加坡 | SGP
       - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU
-      - 🇭🇰 香港 | HKG
       - 🇵🇱 波兰 | POL
       - 🇩🇪 德国 | DEU_1
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
       - 01(TG:@tccjd)
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
       - 01(TG:@tccjd)_2
       - 法國
       - 德國
@@ -2071,8 +2031,8 @@ proxy-groups:
       - 53(TG:@tccjd)
       - 54(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
+      - 02(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2111,30 +2071,28 @@ proxy-groups:
       - 39(TG:@tccjd)
       - 40(TG:@tccjd)
       - 41(TG:@tccjd)
+      - 🇭🇰 香港 | HKG
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 45(TG:@tccjd)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇩🇪 德国 | DEU
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇺🇸 美国 (TG:@tccjd)
+      - 04(TG:@tccjd)
       - 🇯🇵 日本 | JPN
       - 🇸🇬 新加坡 | SGP
       - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU
-      - 🇭🇰 香港 | HKG
       - 🇵🇱 波兰 | POL
       - 🇩🇪 德国 | DEU_1
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
       - 01(TG:@tccjd)
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
       - 01(TG:@tccjd)_2
       - 法國
       - 德國
@@ -2202,8 +2160,8 @@ proxy-groups:
       - 53(TG:@tccjd)
       - 54(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
+      - 02(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2242,6 +2200,10 @@ proxy-groups:
       - 39(TG:@tccjd)
       - 40(TG:@tccjd)
       - 41(TG:@tccjd)
+      - 🇭🇰 香港 | HKG
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 45(TG:@tccjd)
   - name: 🎯 全球直连
     type: select
@@ -2265,24 +2227,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇩🇪 德国 | DEU
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇺🇸 美国 (TG:@tccjd)
+      - 04(TG:@tccjd)
       - 🇯🇵 日本 | JPN
       - 🇸🇬 新加坡 | SGP
       - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU
-      - 🇭🇰 香港 | HKG
       - 🇵🇱 波兰 | POL
       - 🇩🇪 德国 | DEU_1
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
       - 01(TG:@tccjd)
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇺🇸 美国 (TG:@tccjd)
       - 02(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
       - 01(TG:@tccjd)_2
       - 法國
       - 德國
@@ -2350,8 +2306,8 @@ proxy-groups:
       - 53(TG:@tccjd)
       - 54(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_1
+      - 02(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2390,6 +2346,10 @@ proxy-groups:
       - 39(TG:@tccjd)
       - 40(TG:@tccjd)
       - 41(TG:@tccjd)
+      - 🇭🇰 香港 | HKG
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 45(TG:@tccjd)
 rule-providers:
   LocalAreaNetwork:
