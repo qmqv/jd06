@@ -24,6 +24,14 @@ dns:
       - https://1.1.1.1/dns-query#🚀 节点选择
       - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
+  - name: 🇩🇪 德国 | DEU
+    type: ss
+    server: 79.76.104.245
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: CqZGtdgxtxekD3SjTc3A/HTBZrqde4o1PA2zPjElsdc=
+    skip-cert-verify: true
+    udp: true
   - name: 🇭🇰 香港 | HKG
     type: vless
     server: hkhl1f6.87544899.xyz
@@ -50,14 +58,6 @@ proxies:
     reality-opts:
       public-key: jGpS_zJlDp2Jmo87eVM-pYcVd3XkRL4J-lzn7QpWah4
       short-id: 7b160d08e2213a6d
-    skip-cert-verify: true
-    udp: true
-  - name: 🇩🇪 德国 | DEU
-    type: ss
-    server: 79.76.104.245
-    port: 59924
-    cipher: 2022-blake3-chacha20-poly1305
-    password: CqZGtdgxtxekD3SjTc3A/HTBZrqde4o1PA2zPjElsdc=
     skip-cert-verify: true
     udp: true
   - name: 🇰🇷 韩国 | KOR
@@ -98,28 +98,7 @@ proxies:
       path: /
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 韩国
-    type: anytls
-    server: svip.skycon808.com
-    port: 60005
-    password: 13f0acfa-38c1-4e82-a758-583aa31740df
-    sni: xjp18.2uuzhe.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
   - name: (TG:@tccjd) 美国
-    type: trojan
-    server: 172.64.152.23
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-    udp: true
-  - name: (TG:@tccjd) 美国_1
     type: vless
     server: d2hplu8rn1zhez.cloudfront.net
     port: 443
@@ -146,7 +125,7 @@ proxies:
       path: /v1
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_2
+  - name: (TG:@tccjd) 美国_1
     type: vless
     server: 104.21.62.234
     port: 443
@@ -172,15 +151,7 @@ proxies:
       path: /29c8fed7ca22
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 瑞士
-    type: hysteria2
-    server: 138.124.0.168
-    port: 8080
-    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-    sni: hopp-legend-se.roxa.org
-    skip-cert-verify: true
-    udp: true
-  - name: (TG:@tccjd) 美国_3
+  - name: (TG:@tccjd) 美国_2
     type: vless
     server: 172.67.148.211
     port: 443
@@ -225,7 +196,7 @@ proxies:
         Host: 0-m19.SOUtH-afRIca-lInE.ccWu.Cc
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_4
+  - name: (TG:@tccjd) 美国_3
     type: vless
     server: 104.21.91.76
     port: 443
@@ -372,7 +343,7 @@ proxies:
         Host: 1-m19.Lop.ccwU.CC
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_5
+  - name: (TG:@tccjd) 美国_4
     type: vless
     server: 172.67.148.211
     port: 443
@@ -431,7 +402,7 @@ proxies:
         Host: 3-m19.IKl.CcWu.CC
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_6
+  - name: (TG:@tccjd) 美国_5
     type: vless
     server: 104.21.53.73
     port: 443
@@ -506,7 +477,7 @@ proxies:
         Host: 4-m19.SUdan-pArk.ccWu.CC
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_7
+  - name: (TG:@tccjd) 美国_6
     type: vless
     server: 104.21.12.3
     port: 443
@@ -521,7 +492,7 @@ proxies:
         Host: 0-m19.MeXico-pORT.ccWU.cC
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_8
+  - name: (TG:@tccjd) 美国_7
     type: vless
     server: 104.21.22.82
     port: 443
@@ -536,7 +507,7 @@ proxies:
         Host: 5-M19.mju.Ccwu.cC
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_9
+  - name: (TG:@tccjd) 美国_8
     type: vless
     server: 104.21.16.216
     port: 443
@@ -595,7 +566,7 @@ proxies:
       short-id: 4c517b9e
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_10
+  - name: (TG:@tccjd) 美国_9
     type: vless
     server: 172.67.176.60
     port: 443
@@ -667,7 +638,7 @@ proxies:
       short-id: 4c517b9e
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_11
+  - name: (TG:@tccjd) 美国_10
     type: vless
     server: 172.67.176.60
     port: 443
@@ -682,7 +653,7 @@ proxies:
         Host: 9-m19.sOuTH-AFRIca.CCwu.CC
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_12
+  - name: (TG:@tccjd) 美国_11
     type: vless
     server: 104.21.56.104
     port: 443
@@ -697,7 +668,7 @@ proxies:
         Host: 4-M19.aLBanIA.kDNS.fR
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_13
+  - name: (TG:@tccjd) 美国_12
     type: vless
     server: 18.239.134.69
     port: 80
@@ -934,22 +905,6 @@ proxies:
       path: /ED3ZQPu7lqyeDGD58KabZ
       headers:
         Host: 4-M13.AyutthayA-x.KDns.Fr
-    skip-cert-verify: true
-    udp: true
-  - name: 法国(TG:@tccjd)
-    type: hysteria2
-    server: 62.210.7.139
-    port: 60111
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: speedtest.tinkoff.ru
-    skip-cert-verify: true
-    udp: true
-  - name: 法国(TG:@tccjd)_1
-    type: hysteria2
-    server: 62.210.7.139
-    port: 60111
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: bing.com
     skip-cert-verify: true
     udp: true
   - name: 丹麦(TG:@tccjd)
@@ -1532,29 +1487,71 @@ proxies:
         Host: 4-m20.e00e.ccwu.cc
     skip-cert-verify: true
     udp: true
+  - name: (TG:@tccjd) 美国_13
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+    udp: true
+  - name: (TG:@tccjd) 瑞士
+    type: hysteria2
+    server: 138.124.0.168
+    port: 8080
+    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+    sni: hopp-legend-se.roxa.org
+    skip-cert-verify: true
+    udp: true
+  - name: 法国(TG:@tccjd)
+    type: hysteria2
+    server: 62.210.7.139
+    port: 60111
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: speedtest.tinkoff.ru
+    skip-cert-verify: true
+    udp: true
+  - name: 法国(TG:@tccjd)_1
+    type: hysteria2
+    server: 62.210.7.139
+    port: 60111
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: (TG:@tccjd) 韩国
+    type: anytls
+    server: svip.skycon808.com
+    port: 60005
+    password: 13f0acfa-38c1-4e82-a758-583aa31740df
+    sni: xjp18.2uuzhe.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇩🇪 德国 | DEU
       - 🇭🇰 香港 | HKG
       - 🇯🇵 日本 | JPN
-      - 🇩🇪 德国 | DEU
       - 🇰🇷 韩国 | KOR
       - 🇷🇺 俄罗斯 | RUS
       - 01(TG:@tccjd)
-      - (TG:@tccjd) 韩国
       - (TG:@tccjd) 美国
-      - (TG:@tccjd) 美国_1
       - (TG:@tccjd) 巴西
-      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd) 美国_1
       - (TG:@tccjd)澳大利亚
-      - (TG:@tccjd) 瑞士
-      - (TG:@tccjd) 美国_3
+      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 美国_4
+      - (TG:@tccjd) 美国_3
       - (TG:@tccjd)美国_2
       - (TG:@tccjd)美国_3
       - (TG:@tccjd)美国_4
@@ -1564,29 +1561,29 @@ proxy-groups:
       - (TG:@tccjd)美国_7
       - (TG:@tccjd)英国
       - (TG:@tccjd)美国_8
-      - (TG:@tccjd) 美国_5
+      - (TG:@tccjd) 美国_4
       - (TG:@tccjd)美国_9
       - (TG:@tccjd)英国_1
       - (TG:@tccjd)美国_10
-      - (TG:@tccjd) 美国_6
+      - (TG:@tccjd) 美国_5
       - (TG:@tccjd)美国_11
       - (TG:@tccjd)美国_12
       - (TG:@tccjd)美国_13
       - (TG:@tccjd)美国_14
+      - (TG:@tccjd) 美国_6
       - (TG:@tccjd) 美国_7
       - (TG:@tccjd) 美国_8
-      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)美国_15
       - (TG:@tccjd)美国_16
       - (TG:@tccjd) 英国
-      - (TG:@tccjd) 美国_10
+      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)英国_2
       - (TG:@tccjd)俄罗斯_1
       - (TG:@tccjd)美国_17
       - (TG:@tccjd)英国_3
+      - (TG:@tccjd) 美国_10
       - (TG:@tccjd) 美国_11
       - (TG:@tccjd) 美国_12
-      - (TG:@tccjd) 美国_13
       - (TG:@tccjd)美国_18
       - 01(TG:@tccjd)_1
       - 俄罗斯(TG:@tccjd)
@@ -1603,8 +1600,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 法国(TG:@tccjd)
-      - 法国(TG:@tccjd)_1
       - 丹麦(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_2
       - 俄罗斯(TG:@tccjd)_3
@@ -1646,26 +1641,28 @@ proxy-groups:
       - 美国(TG:@tccjd)_31
       - 美国(TG:@tccjd)_32
       - 加拿大(TG:@tccjd)
+      - (TG:@tccjd) 美国_13
+      - (TG:@tccjd) 瑞士
+      - 法国(TG:@tccjd)
+      - 法国(TG:@tccjd)_1
+      - (TG:@tccjd) 韩国
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - 🇩🇪 德国 | DEU
       - 🇭🇰 香港 | HKG
       - 🇯🇵 日本 | JPN
-      - 🇩🇪 德国 | DEU
       - 🇰🇷 韩国 | KOR
       - 🇷🇺 俄罗斯 | RUS
       - 01(TG:@tccjd)
-      - (TG:@tccjd) 韩国
       - (TG:@tccjd) 美国
-      - (TG:@tccjd) 美国_1
       - (TG:@tccjd) 巴西
-      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd) 美国_1
       - (TG:@tccjd)澳大利亚
-      - (TG:@tccjd) 瑞士
-      - (TG:@tccjd) 美国_3
+      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 美国_4
+      - (TG:@tccjd) 美国_3
       - (TG:@tccjd)美国_2
       - (TG:@tccjd)美国_3
       - (TG:@tccjd)美国_4
@@ -1675,29 +1672,29 @@ proxy-groups:
       - (TG:@tccjd)美国_7
       - (TG:@tccjd)英国
       - (TG:@tccjd)美国_8
-      - (TG:@tccjd) 美国_5
+      - (TG:@tccjd) 美国_4
       - (TG:@tccjd)美国_9
       - (TG:@tccjd)英国_1
       - (TG:@tccjd)美国_10
-      - (TG:@tccjd) 美国_6
+      - (TG:@tccjd) 美国_5
       - (TG:@tccjd)美国_11
       - (TG:@tccjd)美国_12
       - (TG:@tccjd)美国_13
       - (TG:@tccjd)美国_14
+      - (TG:@tccjd) 美国_6
       - (TG:@tccjd) 美国_7
       - (TG:@tccjd) 美国_8
-      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)美国_15
       - (TG:@tccjd)美国_16
       - (TG:@tccjd) 英国
-      - (TG:@tccjd) 美国_10
+      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)英国_2
       - (TG:@tccjd)俄罗斯_1
       - (TG:@tccjd)美国_17
       - (TG:@tccjd)英国_3
+      - (TG:@tccjd) 美国_10
       - (TG:@tccjd) 美国_11
       - (TG:@tccjd) 美国_12
-      - (TG:@tccjd) 美国_13
       - (TG:@tccjd)美国_18
       - 01(TG:@tccjd)_1
       - 俄罗斯(TG:@tccjd)
@@ -1714,8 +1711,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 法国(TG:@tccjd)
-      - 法国(TG:@tccjd)_1
       - 丹麦(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_2
       - 俄罗斯(TG:@tccjd)_3
@@ -1757,6 +1752,11 @@ proxy-groups:
       - 美国(TG:@tccjd)_31
       - 美国(TG:@tccjd)_32
       - 加拿大(TG:@tccjd)
+      - (TG:@tccjd) 美国_13
+      - (TG:@tccjd) 瑞士
+      - 法国(TG:@tccjd)
+      - 法国(TG:@tccjd)_1
+      - (TG:@tccjd) 韩国
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1766,23 +1766,20 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇩🇪 德国 | DEU
       - 🇭🇰 香港 | HKG
       - 🇯🇵 日本 | JPN
-      - 🇩🇪 德国 | DEU
       - 🇰🇷 韩国 | KOR
       - 🇷🇺 俄罗斯 | RUS
       - 01(TG:@tccjd)
-      - (TG:@tccjd) 韩国
       - (TG:@tccjd) 美国
-      - (TG:@tccjd) 美国_1
       - (TG:@tccjd) 巴西
-      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd) 美国_1
       - (TG:@tccjd)澳大利亚
-      - (TG:@tccjd) 瑞士
-      - (TG:@tccjd) 美国_3
+      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 美国_4
+      - (TG:@tccjd) 美国_3
       - (TG:@tccjd)美国_2
       - (TG:@tccjd)美国_3
       - (TG:@tccjd)美国_4
@@ -1792,29 +1789,29 @@ proxy-groups:
       - (TG:@tccjd)美国_7
       - (TG:@tccjd)英国
       - (TG:@tccjd)美国_8
-      - (TG:@tccjd) 美国_5
+      - (TG:@tccjd) 美国_4
       - (TG:@tccjd)美国_9
       - (TG:@tccjd)英国_1
       - (TG:@tccjd)美国_10
-      - (TG:@tccjd) 美国_6
+      - (TG:@tccjd) 美国_5
       - (TG:@tccjd)美国_11
       - (TG:@tccjd)美国_12
       - (TG:@tccjd)美国_13
       - (TG:@tccjd)美国_14
+      - (TG:@tccjd) 美国_6
       - (TG:@tccjd) 美国_7
       - (TG:@tccjd) 美国_8
-      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)美国_15
       - (TG:@tccjd)美国_16
       - (TG:@tccjd) 英国
-      - (TG:@tccjd) 美国_10
+      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)英国_2
       - (TG:@tccjd)俄罗斯_1
       - (TG:@tccjd)美国_17
       - (TG:@tccjd)英国_3
+      - (TG:@tccjd) 美国_10
       - (TG:@tccjd) 美国_11
       - (TG:@tccjd) 美国_12
-      - (TG:@tccjd) 美国_13
       - (TG:@tccjd)美国_18
       - 01(TG:@tccjd)_1
       - 俄罗斯(TG:@tccjd)
@@ -1831,8 +1828,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 法国(TG:@tccjd)
-      - 法国(TG:@tccjd)_1
       - 丹麦(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_2
       - 俄罗斯(TG:@tccjd)_3
@@ -1874,28 +1869,30 @@ proxy-groups:
       - 美国(TG:@tccjd)_31
       - 美国(TG:@tccjd)_32
       - 加拿大(TG:@tccjd)
+      - (TG:@tccjd) 美国_13
+      - (TG:@tccjd) 瑞士
+      - 法国(TG:@tccjd)
+      - 法国(TG:@tccjd)_1
+      - (TG:@tccjd) 韩国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇩🇪 德国 | DEU
       - 🇭🇰 香港 | HKG
       - 🇯🇵 日本 | JPN
-      - 🇩🇪 德国 | DEU
       - 🇰🇷 韩国 | KOR
       - 🇷🇺 俄罗斯 | RUS
       - 01(TG:@tccjd)
-      - (TG:@tccjd) 韩国
       - (TG:@tccjd) 美国
-      - (TG:@tccjd) 美国_1
       - (TG:@tccjd) 巴西
-      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd) 美国_1
       - (TG:@tccjd)澳大利亚
-      - (TG:@tccjd) 瑞士
-      - (TG:@tccjd) 美国_3
+      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 美国_4
+      - (TG:@tccjd) 美国_3
       - (TG:@tccjd)美国_2
       - (TG:@tccjd)美国_3
       - (TG:@tccjd)美国_4
@@ -1905,29 +1902,29 @@ proxy-groups:
       - (TG:@tccjd)美国_7
       - (TG:@tccjd)英国
       - (TG:@tccjd)美国_8
-      - (TG:@tccjd) 美国_5
+      - (TG:@tccjd) 美国_4
       - (TG:@tccjd)美国_9
       - (TG:@tccjd)英国_1
       - (TG:@tccjd)美国_10
-      - (TG:@tccjd) 美国_6
+      - (TG:@tccjd) 美国_5
       - (TG:@tccjd)美国_11
       - (TG:@tccjd)美国_12
       - (TG:@tccjd)美国_13
       - (TG:@tccjd)美国_14
+      - (TG:@tccjd) 美国_6
       - (TG:@tccjd) 美国_7
       - (TG:@tccjd) 美国_8
-      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)美国_15
       - (TG:@tccjd)美国_16
       - (TG:@tccjd) 英国
-      - (TG:@tccjd) 美国_10
+      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)英国_2
       - (TG:@tccjd)俄罗斯_1
       - (TG:@tccjd)美国_17
       - (TG:@tccjd)英国_3
+      - (TG:@tccjd) 美国_10
       - (TG:@tccjd) 美国_11
       - (TG:@tccjd) 美国_12
-      - (TG:@tccjd) 美国_13
       - (TG:@tccjd)美国_18
       - 01(TG:@tccjd)_1
       - 俄罗斯(TG:@tccjd)
@@ -1944,8 +1941,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 法国(TG:@tccjd)
-      - 法国(TG:@tccjd)_1
       - 丹麦(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_2
       - 俄罗斯(TG:@tccjd)_3
@@ -1987,28 +1982,30 @@ proxy-groups:
       - 美国(TG:@tccjd)_31
       - 美国(TG:@tccjd)_32
       - 加拿大(TG:@tccjd)
+      - (TG:@tccjd) 美国_13
+      - (TG:@tccjd) 瑞士
+      - 法国(TG:@tccjd)
+      - 法国(TG:@tccjd)_1
+      - (TG:@tccjd) 韩国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇩🇪 德国 | DEU
       - 🇭🇰 香港 | HKG
       - 🇯🇵 日本 | JPN
-      - 🇩🇪 德国 | DEU
       - 🇰🇷 韩国 | KOR
       - 🇷🇺 俄罗斯 | RUS
       - 01(TG:@tccjd)
-      - (TG:@tccjd) 韩国
       - (TG:@tccjd) 美国
-      - (TG:@tccjd) 美国_1
       - (TG:@tccjd) 巴西
-      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd) 美国_1
       - (TG:@tccjd)澳大利亚
-      - (TG:@tccjd) 瑞士
-      - (TG:@tccjd) 美国_3
+      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 美国_4
+      - (TG:@tccjd) 美国_3
       - (TG:@tccjd)美国_2
       - (TG:@tccjd)美国_3
       - (TG:@tccjd)美国_4
@@ -2018,29 +2015,29 @@ proxy-groups:
       - (TG:@tccjd)美国_7
       - (TG:@tccjd)英国
       - (TG:@tccjd)美国_8
-      - (TG:@tccjd) 美国_5
+      - (TG:@tccjd) 美国_4
       - (TG:@tccjd)美国_9
       - (TG:@tccjd)英国_1
       - (TG:@tccjd)美国_10
-      - (TG:@tccjd) 美国_6
+      - (TG:@tccjd) 美国_5
       - (TG:@tccjd)美国_11
       - (TG:@tccjd)美国_12
       - (TG:@tccjd)美国_13
       - (TG:@tccjd)美国_14
+      - (TG:@tccjd) 美国_6
       - (TG:@tccjd) 美国_7
       - (TG:@tccjd) 美国_8
-      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)美国_15
       - (TG:@tccjd)美国_16
       - (TG:@tccjd) 英国
-      - (TG:@tccjd) 美国_10
+      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)英国_2
       - (TG:@tccjd)俄罗斯_1
       - (TG:@tccjd)美国_17
       - (TG:@tccjd)英国_3
+      - (TG:@tccjd) 美国_10
       - (TG:@tccjd) 美国_11
       - (TG:@tccjd) 美国_12
-      - (TG:@tccjd) 美国_13
       - (TG:@tccjd)美国_18
       - 01(TG:@tccjd)_1
       - 俄罗斯(TG:@tccjd)
@@ -2057,8 +2054,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 法国(TG:@tccjd)
-      - 法国(TG:@tccjd)_1
       - 丹麦(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_2
       - 俄罗斯(TG:@tccjd)_3
@@ -2100,28 +2095,30 @@ proxy-groups:
       - 美国(TG:@tccjd)_31
       - 美国(TG:@tccjd)_32
       - 加拿大(TG:@tccjd)
+      - (TG:@tccjd) 美国_13
+      - (TG:@tccjd) 瑞士
+      - 法国(TG:@tccjd)
+      - 法国(TG:@tccjd)_1
+      - (TG:@tccjd) 韩国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇩🇪 德国 | DEU
       - 🇭🇰 香港 | HKG
       - 🇯🇵 日本 | JPN
-      - 🇩🇪 德国 | DEU
       - 🇰🇷 韩国 | KOR
       - 🇷🇺 俄罗斯 | RUS
       - 01(TG:@tccjd)
-      - (TG:@tccjd) 韩国
       - (TG:@tccjd) 美国
-      - (TG:@tccjd) 美国_1
       - (TG:@tccjd) 巴西
-      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd) 美国_1
       - (TG:@tccjd)澳大利亚
-      - (TG:@tccjd) 瑞士
-      - (TG:@tccjd) 美国_3
+      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 美国_4
+      - (TG:@tccjd) 美国_3
       - (TG:@tccjd)美国_2
       - (TG:@tccjd)美国_3
       - (TG:@tccjd)美国_4
@@ -2131,29 +2128,29 @@ proxy-groups:
       - (TG:@tccjd)美国_7
       - (TG:@tccjd)英国
       - (TG:@tccjd)美国_8
-      - (TG:@tccjd) 美国_5
+      - (TG:@tccjd) 美国_4
       - (TG:@tccjd)美国_9
       - (TG:@tccjd)英国_1
       - (TG:@tccjd)美国_10
-      - (TG:@tccjd) 美国_6
+      - (TG:@tccjd) 美国_5
       - (TG:@tccjd)美国_11
       - (TG:@tccjd)美国_12
       - (TG:@tccjd)美国_13
       - (TG:@tccjd)美国_14
+      - (TG:@tccjd) 美国_6
       - (TG:@tccjd) 美国_7
       - (TG:@tccjd) 美国_8
-      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)美国_15
       - (TG:@tccjd)美国_16
       - (TG:@tccjd) 英国
-      - (TG:@tccjd) 美国_10
+      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)英国_2
       - (TG:@tccjd)俄罗斯_1
       - (TG:@tccjd)美国_17
       - (TG:@tccjd)英国_3
+      - (TG:@tccjd) 美国_10
       - (TG:@tccjd) 美国_11
       - (TG:@tccjd) 美国_12
-      - (TG:@tccjd) 美国_13
       - (TG:@tccjd)美国_18
       - 01(TG:@tccjd)_1
       - 俄罗斯(TG:@tccjd)
@@ -2170,8 +2167,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 法国(TG:@tccjd)
-      - 法国(TG:@tccjd)_1
       - 丹麦(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_2
       - 俄罗斯(TG:@tccjd)_3
@@ -2213,6 +2208,11 @@ proxy-groups:
       - 美国(TG:@tccjd)_31
       - 美国(TG:@tccjd)_32
       - 加拿大(TG:@tccjd)
+      - (TG:@tccjd) 美国_13
+      - (TG:@tccjd) 瑞士
+      - 法国(TG:@tccjd)
+      - 法国(TG:@tccjd)_1
+      - (TG:@tccjd) 韩国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2235,23 +2235,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇩🇪 德国 | DEU
       - 🇭🇰 香港 | HKG
       - 🇯🇵 日本 | JPN
-      - 🇩🇪 德国 | DEU
       - 🇰🇷 韩国 | KOR
       - 🇷🇺 俄罗斯 | RUS
       - 01(TG:@tccjd)
-      - (TG:@tccjd) 韩国
       - (TG:@tccjd) 美国
-      - (TG:@tccjd) 美国_1
       - (TG:@tccjd) 巴西
-      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd) 美国_1
       - (TG:@tccjd)澳大利亚
-      - (TG:@tccjd) 瑞士
-      - (TG:@tccjd) 美国_3
+      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 美国_4
+      - (TG:@tccjd) 美国_3
       - (TG:@tccjd)美国_2
       - (TG:@tccjd)美国_3
       - (TG:@tccjd)美国_4
@@ -2261,29 +2258,29 @@ proxy-groups:
       - (TG:@tccjd)美国_7
       - (TG:@tccjd)英国
       - (TG:@tccjd)美国_8
-      - (TG:@tccjd) 美国_5
+      - (TG:@tccjd) 美国_4
       - (TG:@tccjd)美国_9
       - (TG:@tccjd)英国_1
       - (TG:@tccjd)美国_10
-      - (TG:@tccjd) 美国_6
+      - (TG:@tccjd) 美国_5
       - (TG:@tccjd)美国_11
       - (TG:@tccjd)美国_12
       - (TG:@tccjd)美国_13
       - (TG:@tccjd)美国_14
+      - (TG:@tccjd) 美国_6
       - (TG:@tccjd) 美国_7
       - (TG:@tccjd) 美国_8
-      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)美国_15
       - (TG:@tccjd)美国_16
       - (TG:@tccjd) 英国
-      - (TG:@tccjd) 美国_10
+      - (TG:@tccjd) 美国_9
       - (TG:@tccjd)英国_2
       - (TG:@tccjd)俄罗斯_1
       - (TG:@tccjd)美国_17
       - (TG:@tccjd)英国_3
+      - (TG:@tccjd) 美国_10
       - (TG:@tccjd) 美国_11
       - (TG:@tccjd) 美国_12
-      - (TG:@tccjd) 美国_13
       - (TG:@tccjd)美国_18
       - 01(TG:@tccjd)_1
       - 俄罗斯(TG:@tccjd)
@@ -2300,8 +2297,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_6
       - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 法国(TG:@tccjd)
-      - 法国(TG:@tccjd)_1
       - 丹麦(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_2
       - 俄罗斯(TG:@tccjd)_3
@@ -2343,6 +2338,11 @@ proxy-groups:
       - 美国(TG:@tccjd)_31
       - 美国(TG:@tccjd)_32
       - 加拿大(TG:@tccjd)
+      - (TG:@tccjd) 美国_13
+      - (TG:@tccjd) 瑞士
+      - 法国(TG:@tccjd)
+      - 法国(TG:@tccjd)_1
+      - (TG:@tccjd) 韩国
 rule-providers:
   LocalAreaNetwork:
     type: http
