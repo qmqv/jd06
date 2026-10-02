@@ -24,6 +24,14 @@ dns:
       - https://1.1.1.1/dns-query#🚀 节点选择
       - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
+  - name: (TG:@tccjd) 俄罗斯
+    type: ss
+    server: 46.17.40.25
+    port: 20998
+    cipher: aes-256-gcm
+    password: 6b39ae3234dfd68b
+    skip-cert-verify: true
+    udp: true
   - name: 🇸🇬 新加坡 | SGP
     type: vless
     server: 5.223.19.211
@@ -100,46 +108,6 @@ proxies:
       headers:
         Host: v2ray.aizgl.com
     skip-cert-verify: true
-    udp: true
-  - name: 🇱🇻 拉脱维亚 | LVA
-    type: hysteria2
-    server: 104.165.205.41
-    port: 8443
-    password: 3a92b39a-5f02-415e-a908-783ec320e83f
-    sni: speedtestmark.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇷🇺 俄罗斯 | RUS
-    type: hysteria2
-    server: 91.240.86.70
-    port: 22443
-    password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-    sni: 91.240.86.70
-    skip-cert-verify: true
-    udp: true
-  - name: 01(TG:@tccjd)
-    type: trojan
-    server: 199.107.164.105
-    port: 443
-    password: 8GXLP3dEzm7T8wP5Jx0Ufg
-    sni: quictest.burncommunity.ru
-    alpn:
-      - http/1.1
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        Host: quictest.burncommunity.ru
-    udp: true
-  - name: 01(TG:@tccjd)_1
-    type: hysteria2
-    server: sg4.dexlos.com
-    port: 20654
-    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
-    sni: sg4.dexlos.com
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: xK9mN2pLq5vR8wB3
     udp: true
   - name: 香港(TG:@tccjd)
     type: vless
@@ -345,14 +313,6 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: 俄罗斯(TG:@tccjd)_9
-    type: hysteria2
-    server: 91.240.86.70
-    port: 22443
-    password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-    sni: hy.quattro-tech.ru
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(TG:@tccjd)_10
     type: vless
     server: 176.108.241.126
     port: 9892
@@ -368,7 +328,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: 俄罗斯(TG:@tccjd)_11
+  - name: 俄罗斯(TG:@tccjd)_10
     type: vless
     server: 176.108.241.126
     port: 9892
@@ -384,7 +344,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: 俄罗斯(TG:@tccjd)_12
+  - name: 俄罗斯(TG:@tccjd)_11
     type: vless
     server: 176.108.241.126
     port: 9892
@@ -400,7 +360,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: 俄罗斯(TG:@tccjd)_13
+  - name: 俄罗斯(TG:@tccjd)_12
     type: vless
     server: 176.109.108.244
     port: 9880
@@ -416,87 +376,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)
-    type: trojan
-    server: 199.107.164.105
-    port: 443
-    password: 8GXLP3dEzm7T8wP5Jx0Ufg
-    sni: quictest.burncommunity.ru
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        Host: quictest.burncommunity.ru
-    udp: true
-  - name: 美国(TG:@tccjd)_1
-    type: trojan
-    server: 199.107.164.105
-    port: 443
-    password: 8GXLP3dEzm7T8wP5Jx0Ufg
-    sni: quictest.burncommunity.ru
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        Host: quictest.burncommunity.ru
-    udp: true
-  - name: (TG:@tccjd)中国台湾
-    type: anytls
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
-    port: 443
-    password: 9sK2mP8xQ7vL3nZ6
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: (TG:@tccjd) 俄罗斯
-    type: hysteria2
-    server: rb.mangshe.xyz
-    port: 2060
-    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    sni: rb.mangshe.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: (TG:@tccjd) 法国
-    type: hysteria2
-    server: 62.210.7.139
-    port: 60111
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: bing.com
-    skip-cert-verify: true
-    udp: true
-  - name: (TG:@tccjd) 美国
-    type: hysteria2
-    server: 162.249.127.146
-    port: 8443
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    sni: hop-germany-september.dynuddns.com
-    skip-cert-verify: true
-    udp: true
-  - name: (TG:@tccjd)美国
-    type: hysteria2
-    server: us3.xiaoliyu.cyou
-    port: 18333
-    password: 19f72087-4591-4d72-930b-2697078ec2be
-    sni: us3.xiaoliyu.cyou
-    skip-cert-verify: true
-    udp: true
   - name: (TG:@tccjd) 俄罗斯_1
-    type: hysteria2
-    server: els.mangshe.xyz
-    port: 2060
-    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    sni: els.mangshe.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: (TG:@tccjd) 俄罗斯_2
-    type: ss
-    server: 46.17.40.25
-    port: 20998
-    cipher: aes-256-gcm
-    password: 6b39ae3234dfd68b
-    skip-cert-verify: true
-    udp: true
-  - name: (TG:@tccjd) 俄罗斯_3
     type: vless
     server: 176.108.241.126
     port: 9892
@@ -512,7 +392,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 俄罗斯_4
+  - name: (TG:@tccjd) 俄罗斯_2
     type: vless
     server: 176.108.241.126
     port: 9892
@@ -528,15 +408,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_1
-    type: hysteria2
-    server: xby.mangshe.xyz
-    port: 2060
-    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    sni: xby.mangshe.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: (TG:@tccjd) 俄罗斯_5
+  - name: (TG:@tccjd) 俄罗斯_3
     type: vless
     server: 176.108.241.126
     port: 9892
@@ -552,7 +424,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 美国_2
+  - name: (TG:@tccjd) 美国
     type: vless
     server: 34.154.47.33
     port: 443
@@ -565,7 +437,7 @@ proxies:
       short-id: 29615707650b941d
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd)美国_1
+  - name: (TG:@tccjd)美国
     type: vless
     server: 34.154.47.33
     port: 443
@@ -578,7 +450,7 @@ proxies:
       short-id: 29615707650b941d
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 俄罗斯_6
+  - name: (TG:@tccjd) 俄罗斯_4
     type: vless
     server: 176.109.108.244
     port: 9880
@@ -594,7 +466,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd)美国_2
+  - name: (TG:@tccjd)美国_1
     type: vless
     server: 34.154.47.33
     port: 443
@@ -607,7 +479,7 @@ proxies:
       short-id: 29615707650b941d
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd)美国_3
+  - name: (TG:@tccjd)美国_2
     type: vless
     server: 34.154.47.33
     port: 443
@@ -636,7 +508,7 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 俄罗斯_7
+  - name: (TG:@tccjd) 俄罗斯_5
     type: vless
     server: 176.109.109.105
     port: 9830
@@ -652,7 +524,7 @@ proxies:
       short-id: aa
     skip-cert-verify: true
     udp: true
-  - name: (TG:@tccjd) 俄罗斯_8
+  - name: (TG:@tccjd) 俄罗斯_6
     type: vless
     server: 176.109.109.105
     port: 9830
@@ -668,22 +540,147 @@ proxies:
       short-id: aabb
     skip-cert-verify: true
     udp: true
+  - name: 01(TG:@tccjd)
+    type: trojan
+    server: 199.107.164.105
+    port: 443
+    password: 8GXLP3dEzm7T8wP5Jx0Ufg
+    sni: quictest.burncommunity.ru
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        Host: quictest.burncommunity.ru
+    udp: true
+  - name: 美国(TG:@tccjd)
+    type: trojan
+    server: 199.107.164.105
+    port: 443
+    password: 8GXLP3dEzm7T8wP5Jx0Ufg
+    sni: quictest.burncommunity.ru
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        Host: quictest.burncommunity.ru
+    udp: true
+  - name: 美国(TG:@tccjd)_1
+    type: trojan
+    server: 199.107.164.105
+    port: 443
+    password: 8GXLP3dEzm7T8wP5Jx0Ufg
+    sni: quictest.burncommunity.ru
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        Host: quictest.burncommunity.ru
+    udp: true
+  - name: 🇱🇻 拉脱维亚 | LVA
+    type: hysteria2
+    server: 104.165.205.41
+    port: 8443
+    password: 3a92b39a-5f02-415e-a908-783ec320e83f
+    sni: speedtestmark.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇷🇺 俄罗斯 | RUS
+    type: hysteria2
+    server: 91.240.86.70
+    port: 22443
+    password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+    sni: 91.240.86.70
+    skip-cert-verify: true
+    udp: true
+  - name: 01(TG:@tccjd)_1
+    type: hysteria2
+    server: sg4.dexlos.com
+    port: 20654
+    password: 8A9905B7-801B-41AF-BFC9-2034212770F6
+    sni: sg4.dexlos.com
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+    udp: true
+  - name: 俄罗斯(TG:@tccjd)_13
+    type: hysteria2
+    server: 91.240.86.70
+    port: 22443
+    password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+    sni: hy.quattro-tech.ru
+    skip-cert-verify: true
+    udp: true
+  - name: (TG:@tccjd) 俄罗斯_7
+    type: hysteria2
+    server: rb.mangshe.xyz
+    port: 2060
+    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+    sni: rb.mangshe.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: (TG:@tccjd) 法国
+    type: hysteria2
+    server: 62.210.7.139
+    port: 60111
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: (TG:@tccjd) 美国_1
+    type: hysteria2
+    server: 162.249.127.146
+    port: 8443
+    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+    sni: hop-germany-september.dynuddns.com
+    skip-cert-verify: true
+    udp: true
+  - name: (TG:@tccjd)美国_3
+    type: hysteria2
+    server: us3.xiaoliyu.cyou
+    port: 18333
+    password: 19f72087-4591-4d72-930b-2697078ec2be
+    sni: us3.xiaoliyu.cyou
+    skip-cert-verify: true
+    udp: true
+  - name: (TG:@tccjd) 俄罗斯_8
+    type: hysteria2
+    server: els.mangshe.xyz
+    port: 2060
+    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+    sni: els.mangshe.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: (TG:@tccjd) 美国_2
+    type: hysteria2
+    server: xby.mangshe.xyz
+    port: 2060
+    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+    sni: xby.mangshe.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: (TG:@tccjd)中国台湾
+    type: anytls
+    server: awefd2313fefarg23fr24.pnuqcnp.cn
+    port: 443
+    password: 9sK2mP8xQ7vL3nZ6
+    skip-cert-verify: true
+    tls: true
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - (TG:@tccjd) 俄罗斯
       - 🇸🇬 新加坡 | SGP
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇮🇩 印尼 | IDN
       - 🇮🇳 印度 | IND
       - 🇺🇸 美国 | USA
-      - 🇱🇻 拉脱维亚 | LVA
-      - 🇷🇺 俄罗斯 | RUS
-      - 01(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 香港(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_1
@@ -701,41 +698,41 @@ proxy-groups:
       - 俄罗斯(TG:@tccjd)_10
       - 俄罗斯(TG:@tccjd)_11
       - 俄罗斯(TG:@tccjd)_12
-      - 俄罗斯(TG:@tccjd)_13
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - (TG:@tccjd)中国台湾
-      - (TG:@tccjd) 俄罗斯
-      - (TG:@tccjd) 法国
-      - (TG:@tccjd) 美国
-      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_1
       - (TG:@tccjd) 俄罗斯_2
       - (TG:@tccjd) 俄罗斯_3
+      - (TG:@tccjd) 美国
+      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_4
-      - (TG:@tccjd) 美国_1
-      - (TG:@tccjd) 俄罗斯_5
-      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 俄罗斯_6
       - (TG:@tccjd)美国_2
-      - (TG:@tccjd)美国_3
       - (TG:@tccjd)俄罗斯
+      - (TG:@tccjd) 俄罗斯_5
+      - (TG:@tccjd) 俄罗斯_6
+      - 01(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 🇱🇻 拉脱维亚 | LVA
+      - 🇷🇺 俄罗斯 | RUS
+      - 01(TG:@tccjd)_1
+      - 俄罗斯(TG:@tccjd)_13
       - (TG:@tccjd) 俄罗斯_7
+      - (TG:@tccjd) 法国
+      - (TG:@tccjd) 美国_1
+      - (TG:@tccjd)美国_3
       - (TG:@tccjd) 俄罗斯_8
+      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd)中国台湾
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - (TG:@tccjd) 俄罗斯
       - 🇸🇬 新加坡 | SGP
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇮🇩 印尼 | IDN
       - 🇮🇳 印度 | IND
       - 🇺🇸 美国 | USA
-      - 🇱🇻 拉脱维亚 | LVA
-      - 🇷🇺 俄罗斯 | RUS
-      - 01(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 香港(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_1
@@ -753,28 +750,31 @@ proxy-groups:
       - 俄罗斯(TG:@tccjd)_10
       - 俄罗斯(TG:@tccjd)_11
       - 俄罗斯(TG:@tccjd)_12
-      - 俄罗斯(TG:@tccjd)_13
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - (TG:@tccjd)中国台湾
-      - (TG:@tccjd) 俄罗斯
-      - (TG:@tccjd) 法国
-      - (TG:@tccjd) 美国
-      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_1
       - (TG:@tccjd) 俄罗斯_2
       - (TG:@tccjd) 俄罗斯_3
+      - (TG:@tccjd) 美国
+      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_4
-      - (TG:@tccjd) 美国_1
-      - (TG:@tccjd) 俄罗斯_5
-      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 俄罗斯_6
       - (TG:@tccjd)美国_2
-      - (TG:@tccjd)美国_3
       - (TG:@tccjd)俄罗斯
+      - (TG:@tccjd) 俄罗斯_5
+      - (TG:@tccjd) 俄罗斯_6
+      - 01(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 🇱🇻 拉脱维亚 | LVA
+      - 🇷🇺 俄罗斯 | RUS
+      - 01(TG:@tccjd)_1
+      - 俄罗斯(TG:@tccjd)_13
       - (TG:@tccjd) 俄罗斯_7
+      - (TG:@tccjd) 法国
+      - (TG:@tccjd) 美国_1
+      - (TG:@tccjd)美国_3
       - (TG:@tccjd) 俄罗斯_8
+      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd)中国台湾
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -784,16 +784,13 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - (TG:@tccjd) 俄罗斯
       - 🇸🇬 新加坡 | SGP
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇮🇩 印尼 | IDN
       - 🇮🇳 印度 | IND
       - 🇺🇸 美国 | USA
-      - 🇱🇻 拉脱维亚 | LVA
-      - 🇷🇺 俄罗斯 | RUS
-      - 01(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 香港(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_1
@@ -811,43 +808,43 @@ proxy-groups:
       - 俄罗斯(TG:@tccjd)_10
       - 俄罗斯(TG:@tccjd)_11
       - 俄罗斯(TG:@tccjd)_12
-      - 俄罗斯(TG:@tccjd)_13
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - (TG:@tccjd)中国台湾
-      - (TG:@tccjd) 俄罗斯
-      - (TG:@tccjd) 法国
-      - (TG:@tccjd) 美国
-      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_1
       - (TG:@tccjd) 俄罗斯_2
       - (TG:@tccjd) 俄罗斯_3
+      - (TG:@tccjd) 美国
+      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_4
-      - (TG:@tccjd) 美国_1
-      - (TG:@tccjd) 俄罗斯_5
-      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 俄罗斯_6
       - (TG:@tccjd)美国_2
-      - (TG:@tccjd)美国_3
       - (TG:@tccjd)俄罗斯
+      - (TG:@tccjd) 俄罗斯_5
+      - (TG:@tccjd) 俄罗斯_6
+      - 01(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 🇱🇻 拉脱维亚 | LVA
+      - 🇷🇺 俄罗斯 | RUS
+      - 01(TG:@tccjd)_1
+      - 俄罗斯(TG:@tccjd)_13
       - (TG:@tccjd) 俄罗斯_7
+      - (TG:@tccjd) 法国
+      - (TG:@tccjd) 美国_1
+      - (TG:@tccjd)美国_3
       - (TG:@tccjd) 俄罗斯_8
+      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd)中国台湾
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - (TG:@tccjd) 俄罗斯
       - 🇸🇬 新加坡 | SGP
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇮🇩 印尼 | IDN
       - 🇮🇳 印度 | IND
       - 🇺🇸 美国 | USA
-      - 🇱🇻 拉脱维亚 | LVA
-      - 🇷🇺 俄罗斯 | RUS
-      - 01(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 香港(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_1
@@ -865,43 +862,43 @@ proxy-groups:
       - 俄罗斯(TG:@tccjd)_10
       - 俄罗斯(TG:@tccjd)_11
       - 俄罗斯(TG:@tccjd)_12
-      - 俄罗斯(TG:@tccjd)_13
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - (TG:@tccjd)中国台湾
-      - (TG:@tccjd) 俄罗斯
-      - (TG:@tccjd) 法国
-      - (TG:@tccjd) 美国
-      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_1
       - (TG:@tccjd) 俄罗斯_2
       - (TG:@tccjd) 俄罗斯_3
+      - (TG:@tccjd) 美国
+      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_4
-      - (TG:@tccjd) 美国_1
-      - (TG:@tccjd) 俄罗斯_5
-      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 俄罗斯_6
       - (TG:@tccjd)美国_2
-      - (TG:@tccjd)美国_3
       - (TG:@tccjd)俄罗斯
+      - (TG:@tccjd) 俄罗斯_5
+      - (TG:@tccjd) 俄罗斯_6
+      - 01(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 🇱🇻 拉脱维亚 | LVA
+      - 🇷🇺 俄罗斯 | RUS
+      - 01(TG:@tccjd)_1
+      - 俄罗斯(TG:@tccjd)_13
       - (TG:@tccjd) 俄罗斯_7
+      - (TG:@tccjd) 法国
+      - (TG:@tccjd) 美国_1
+      - (TG:@tccjd)美国_3
       - (TG:@tccjd) 俄罗斯_8
+      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd)中国台湾
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - (TG:@tccjd) 俄罗斯
       - 🇸🇬 新加坡 | SGP
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇮🇩 印尼 | IDN
       - 🇮🇳 印度 | IND
       - 🇺🇸 美国 | USA
-      - 🇱🇻 拉脱维亚 | LVA
-      - 🇷🇺 俄罗斯 | RUS
-      - 01(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 香港(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_1
@@ -919,43 +916,43 @@ proxy-groups:
       - 俄罗斯(TG:@tccjd)_10
       - 俄罗斯(TG:@tccjd)_11
       - 俄罗斯(TG:@tccjd)_12
-      - 俄罗斯(TG:@tccjd)_13
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - (TG:@tccjd)中国台湾
-      - (TG:@tccjd) 俄罗斯
-      - (TG:@tccjd) 法国
-      - (TG:@tccjd) 美国
-      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_1
       - (TG:@tccjd) 俄罗斯_2
       - (TG:@tccjd) 俄罗斯_3
+      - (TG:@tccjd) 美国
+      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_4
-      - (TG:@tccjd) 美国_1
-      - (TG:@tccjd) 俄罗斯_5
-      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 俄罗斯_6
       - (TG:@tccjd)美国_2
-      - (TG:@tccjd)美国_3
       - (TG:@tccjd)俄罗斯
+      - (TG:@tccjd) 俄罗斯_5
+      - (TG:@tccjd) 俄罗斯_6
+      - 01(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 🇱🇻 拉脱维亚 | LVA
+      - 🇷🇺 俄罗斯 | RUS
+      - 01(TG:@tccjd)_1
+      - 俄罗斯(TG:@tccjd)_13
       - (TG:@tccjd) 俄罗斯_7
+      - (TG:@tccjd) 法国
+      - (TG:@tccjd) 美国_1
+      - (TG:@tccjd)美国_3
       - (TG:@tccjd) 俄罗斯_8
+      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd)中国台湾
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - (TG:@tccjd) 俄罗斯
       - 🇸🇬 新加坡 | SGP
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇮🇩 印尼 | IDN
       - 🇮🇳 印度 | IND
       - 🇺🇸 美国 | USA
-      - 🇱🇻 拉脱维亚 | LVA
-      - 🇷🇺 俄罗斯 | RUS
-      - 01(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 香港(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_1
@@ -973,28 +970,31 @@ proxy-groups:
       - 俄罗斯(TG:@tccjd)_10
       - 俄罗斯(TG:@tccjd)_11
       - 俄罗斯(TG:@tccjd)_12
-      - 俄罗斯(TG:@tccjd)_13
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - (TG:@tccjd)中国台湾
-      - (TG:@tccjd) 俄罗斯
-      - (TG:@tccjd) 法国
-      - (TG:@tccjd) 美国
-      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_1
       - (TG:@tccjd) 俄罗斯_2
       - (TG:@tccjd) 俄罗斯_3
+      - (TG:@tccjd) 美国
+      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_4
-      - (TG:@tccjd) 美国_1
-      - (TG:@tccjd) 俄罗斯_5
-      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 俄罗斯_6
       - (TG:@tccjd)美国_2
-      - (TG:@tccjd)美国_3
       - (TG:@tccjd)俄罗斯
+      - (TG:@tccjd) 俄罗斯_5
+      - (TG:@tccjd) 俄罗斯_6
+      - 01(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 🇱🇻 拉脱维亚 | LVA
+      - 🇷🇺 俄罗斯 | RUS
+      - 01(TG:@tccjd)_1
+      - 俄罗斯(TG:@tccjd)_13
       - (TG:@tccjd) 俄罗斯_7
+      - (TG:@tccjd) 法国
+      - (TG:@tccjd) 美国_1
+      - (TG:@tccjd)美国_3
       - (TG:@tccjd) 俄罗斯_8
+      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd)中国台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1017,16 +1017,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - (TG:@tccjd) 俄罗斯
       - 🇸🇬 新加坡 | SGP
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇮🇩 印尼 | IDN
       - 🇮🇳 印度 | IND
       - 🇺🇸 美国 | USA
-      - 🇱🇻 拉脱维亚 | LVA
-      - 🇷🇺 俄罗斯 | RUS
-      - 01(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 香港(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)
       - 俄罗斯(TG:@tccjd)_1
@@ -1044,28 +1041,31 @@ proxy-groups:
       - 俄罗斯(TG:@tccjd)_10
       - 俄罗斯(TG:@tccjd)_11
       - 俄罗斯(TG:@tccjd)_12
-      - 俄罗斯(TG:@tccjd)_13
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - (TG:@tccjd)中国台湾
-      - (TG:@tccjd) 俄罗斯
-      - (TG:@tccjd) 法国
-      - (TG:@tccjd) 美国
-      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_1
       - (TG:@tccjd) 俄罗斯_2
       - (TG:@tccjd) 俄罗斯_3
+      - (TG:@tccjd) 美国
+      - (TG:@tccjd)美国
       - (TG:@tccjd) 俄罗斯_4
-      - (TG:@tccjd) 美国_1
-      - (TG:@tccjd) 俄罗斯_5
-      - (TG:@tccjd) 美国_2
       - (TG:@tccjd)美国_1
-      - (TG:@tccjd) 俄罗斯_6
       - (TG:@tccjd)美国_2
-      - (TG:@tccjd)美国_3
       - (TG:@tccjd)俄罗斯
+      - (TG:@tccjd) 俄罗斯_5
+      - (TG:@tccjd) 俄罗斯_6
+      - 01(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 🇱🇻 拉脱维亚 | LVA
+      - 🇷🇺 俄罗斯 | RUS
+      - 01(TG:@tccjd)_1
+      - 俄罗斯(TG:@tccjd)_13
       - (TG:@tccjd) 俄罗斯_7
+      - (TG:@tccjd) 法国
+      - (TG:@tccjd) 美国_1
+      - (TG:@tccjd)美国_3
       - (TG:@tccjd) 俄罗斯_8
+      - (TG:@tccjd) 美国_2
+      - (TG:@tccjd)中国台湾
 rule-providers:
   LocalAreaNetwork:
     type: http
